@@ -1,0 +1,11 @@
+framework module map {
+  umbrella header "map.h"
+
+  export *
+  module * { export * }
+}
+
+module map.Swift {
+    header "map-Swift.h"
+    requires objc
+}
