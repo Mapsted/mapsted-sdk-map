@@ -216,6 +216,8 @@ SWIFT_CLASS("_TtC3map8MNMapApi")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
 @class NSCoder;
 @class EAGLContext;
 
