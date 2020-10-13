@@ -312,7 +312,18 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
       get
     }
   }
+  public enum StartingPoint : Swift.String {
+    case CurrentLocation
+    case SelectedLocation
+    case Unspecified
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
   public static let shared: MapstedMap.MapstedMapApi
+  public var startingPointForRouting: MapstedMap.MapstedMapApi.StartingPoint
   public var startSearchable: __ObjC.Searchable? {
     get
     set
@@ -344,6 +355,7 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
   public func plotLocationMarker()
   public func showLocationMarker()
   public func hideLocationMarker()
+  public func clearLocationMarker()
   public func setUserMarkerVisibility(_ visible: Swift.Bool)
   public func plotTemporaryTag(tag: __ObjC.MNPosition)
   public func clearTemporaryTag()
@@ -423,3 +435,6 @@ extension MapstedMap.MNMapNotificationManager.type : Swift.RawRepresentable {}
 extension MapstedMap.MapstedMapApi.TapType : Swift.Equatable {}
 extension MapstedMap.MapstedMapApi.TapType : Swift.Hashable {}
 extension MapstedMap.MapstedMapApi.TapType : Swift.RawRepresentable {}
+extension MapstedMap.MapstedMapApi.StartingPoint : Swift.Equatable {}
+extension MapstedMap.MapstedMapApi.StartingPoint : Swift.Hashable {}
+extension MapstedMap.MapstedMapApi.StartingPoint : Swift.RawRepresentable {}
