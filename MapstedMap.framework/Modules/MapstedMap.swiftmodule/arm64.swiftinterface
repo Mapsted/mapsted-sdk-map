@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MapstedMap
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedMap
 import CoreGraphics
 import CoreLocation
 import Foundation
@@ -10,8 +10,8 @@ import Swift
 import UIKit
 import coremap
 @_hasMissingDesignatedInitializers open class MNMapUIMeta {
-  public static var color: MapstedMap.MNMapUIColorMeta
-  public static var mapLocationChangeAnimationDuration: Swift.Float
+  public static let color: MapstedMap.MNMapUIColorMeta
+  public static let mapLocationChangeAnimationDuration: Swift.Float
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class MNMapUIColorMeta {
@@ -19,27 +19,30 @@ import coremap
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MapstedMapCustomParameters {
-  public static var shared: MapstedMap.MapstedMapCustomParameters
+  public static let shared: MapstedMap.MapstedMapCustomParameters
   public var enableUserLocationButton: Swift.Bool
   public var enableSelectedPropertyButton: Swift.Bool
   public var enableCompassButton: Swift.Bool
   public var enable3DMaps: Swift.Bool
-  public var restrictPanningToProperty: Swift.Bool
+  public var restrictPanningToProperty: Swift.Bool {
+    get
+    set
+  }
   public var mapPerspective: __ObjC.MNMapPerspective {
     get
-    set(newValue)
+    set
   }
   public var useGeoJSONLayers: Swift.Bool {
     get
-    set(newValue)
+    set
   }
   public var baseMapStyle: MapstedMap.MapstedMapMeta.BaseMapStyle {
     get
-    set(newValue)
+    set
   }
   public var styleAssetFileName: Swift.String {
     get
-    set(newValue)
+    set
   }
   @objc deinit
 }
@@ -129,22 +132,22 @@ public protocol MNMapVectorElementListenerDelegate : AnyObject {
   func onMarkerTapped(markerName: Swift.String, markerType: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class MapstedMapMeta {
-  public static var defaultWatermarkPlacement: (Swift.Float, Swift.Float)
-  public static var defaultWatermarkPaddingMoveDown: (Swift.Float, Swift.Float)
-  public static var defaultWatermarkPadding: (Swift.Float, Swift.Float)
+  public static let defaultWatermarkPlacement: (Swift.Float, Swift.Float)
+  public static let defaultWatermarkPaddingMoveDown: (Swift.Float, Swift.Float)
+  public static let defaultWatermarkPadding: (Swift.Float, Swift.Float)
   public static var pinImageName: Swift.String?
   public static var tiltImageName: Swift.String?
   public static var showCompass: Swift.Bool
-  public static var zoomRange: MapSDK.NTMapRange
-  public static var zoomDefault: Swift.Float
-  public static var zoomProperty: Swift.Float
-  public static var zoomBuilding: Swift.Float
-  public static var zoomedCur: Swift.Float
-  public static var zoomedNav: Swift.Float
-  public static var zoomedOut: Swift.Float
-  public static var tiltDefault_3D: Swift.Float
-  public static var tiltDefault_2D: Swift.Float
-  public static var tiltForNavigation: Swift.Float
+  public static let zoomRange: MapSDK.NTMapRange
+  public static let zoomDefault: Swift.Float
+  public static let zoomProperty: Swift.Float
+  public static let zoomBuilding: Swift.Float
+  public static let zoomedCur: Swift.Float
+  public static let zoomedNav: Swift.Float
+  public static let zoomedOut: Swift.Float
+  public static let tiltDefault_3D: Swift.Float
+  public static let tiltDefault_2D: Swift.Float
+  public static let tiltForNavigation: Swift.Float
   public enum MapPanType : Swift.Int {
     case eRestrictToProperty
     case eUnrestricted
@@ -181,7 +184,7 @@ public protocol MNMapVectorElementListenerDelegate : AnyObject {
   @objc deinit
 }
 public class MapstedMapRange {
-  public convenience init()
+  convenience public init()
   public init(min: Swift.Float, max: Swift.Float)
   public var min: Swift.Float {
     get
@@ -219,11 +222,12 @@ extension MNBasicLayer {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class MNMapNotificationManager {
-  public static var main: MapstedMap.MNMapNotificationManager
+  public static let main: MapstedMap.MNMapNotificationManager
   public enum type : Swift.String {
     case drawing
     case routing
     case routingRequestMissingStartLocation
+    case routingRequestFailedUnableToRoute
     case routingRequestOutsideProperty
     case routingRequestFailedMiscellaneous
     case routingInstruction
@@ -322,15 +326,15 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
       get
     }
   }
-  public static var shared: MapstedMap.MapstedMapApi
+  public static let shared: MapstedMap.MapstedMapApi
   public var startingPointForRouting: MapstedMap.MapstedMapApi.StartingPoint
   public var startSearchable: __ObjC.Searchable? {
     get
-    set(newValue)
+    set
   }
   public var askedToShowUserPositionMarker: Swift.Bool {
     get
-    set(newValue)
+    set
   }
   public var selectionManager: MapstedMap.MNSelectionManager {
     get
@@ -409,6 +413,7 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
 }
 extension MapstedMapApi {
   public func setMapPerspective(enable3D: Swift.Bool)
+  public func setMapPanType()
   public func useGeoJSONLayers(enable: Swift.Bool)
   public func setBaseMapStyle(style: MapstedMap.MapstedMapMeta.BaseMapStyle)
   public func setMapStyleFileName(assetFileName: Swift.String)
@@ -417,3 +422,24 @@ extension MapstedMapApi {
   public func setMapBounds(to mapstedMapBounds: MapstedMap.MapstedMapBounds?)
   public func setMapBounds(with mercators: [__ObjC.MNMercator]?, deltaSet: MapstedMap.MapstedMapDelta)
 }
+extension MapstedMap.MapstedMapDelta : Swift.Equatable {}
+extension MapstedMap.MapstedMapDelta : Swift.Hashable {}
+extension MapstedMap.MapstedMapMeta.MapPanType : Swift.Equatable {}
+extension MapstedMap.MapstedMapMeta.MapPanType : Swift.Hashable {}
+extension MapstedMap.MapstedMapMeta.MapPanType : Swift.RawRepresentable {}
+extension MapstedMap.MapstedMapMeta.BaseMapStyle : Swift.Equatable {}
+extension MapstedMap.MapstedMapMeta.BaseMapStyle : Swift.Hashable {}
+extension MapstedMap.MapstedMapMeta.BaseMapStyle : Swift.RawRepresentable {}
+extension MapstedMap.MapstedMapMeta.LayerType : Swift.Equatable {}
+extension MapstedMap.MapstedMapMeta.LayerType : Swift.Hashable {}
+extension MapstedMap.MNMapLayerPlacement : Swift.Equatable {}
+extension MapstedMap.MNMapLayerPlacement : Swift.Hashable {}
+extension MapstedMap.MNMapNotificationManager.type : Swift.Equatable {}
+extension MapstedMap.MNMapNotificationManager.type : Swift.Hashable {}
+extension MapstedMap.MNMapNotificationManager.type : Swift.RawRepresentable {}
+extension MapstedMap.MapstedMapApi.TapType : Swift.Equatable {}
+extension MapstedMap.MapstedMapApi.TapType : Swift.Hashable {}
+extension MapstedMap.MapstedMapApi.TapType : Swift.RawRepresentable {}
+extension MapstedMap.MapstedMapApi.StartingPoint : Swift.Equatable {}
+extension MapstedMap.MapstedMapApi.StartingPoint : Swift.Hashable {}
+extension MapstedMap.MapstedMapApi.StartingPoint : Swift.RawRepresentable {}
