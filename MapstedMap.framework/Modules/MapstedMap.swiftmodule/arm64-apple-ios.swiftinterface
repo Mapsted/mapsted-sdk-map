@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedMap
 import CoreGraphics
 import CoreLocation
@@ -183,6 +183,14 @@ public protocol MNMapVectorElementListenerDelegate : AnyObject {
   public static func getLayerIndex(mapCount: Swift.Int32, type: MapstedMap.MapstedMapMeta.LayerType) -> Swift.Int32
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class AngleCalc {
+  public static let DEG_TO_RAD: Swift.Float
+  public static let RAD_TO_DEG: Swift.Float
+  public static func angleDiff(_ angle1: Swift.Double, _ angle2: Swift.Double) -> Swift.Double
+  public static func angleDiffSigned(_ angle1: Swift.Double, _ angle2: Swift.Double) -> Swift.Double
+  public static func mod2pi(_ someAngle: Swift.Double) -> Swift.Double
+  @objc deinit
+}
 public class MapstedMapRange {
   convenience public init()
   public init(min: Swift.Float, max: Swift.Float)
@@ -342,6 +350,7 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
   public func setUp(prefetchProperties: Swift.Bool)
   public func setUp(prefetchProperties: Swift.Bool, calibrationMode: Swift.Bool)
   public func drawProperty(isSelected: Swift.Bool, propertyData: __ObjC.MNPropertyData)
+  public func updateIcons(propertyIds: [Swift.Int], buildingIds: [Swift.Int], mapZoom: Swift.Float, mapRotation: Swift.Float)
   public func removeProperty(propertyId: Swift.Int)
   public func downloadPackage(propertyId: Swift.Int)
   public func downloadBasemap(delegate: coremap.MapDownloadFinished)
