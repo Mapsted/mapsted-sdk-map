@@ -18,6 +18,9 @@ import coremap
   final public let button_selected: UIKit.UIColor
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class EntityVectorElements {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class MapstedMapCustomParameters {
   public static let shared: MapstedMap.MapstedMapCustomParameters
   public var enableUserLocationButton: Swift.Bool
@@ -158,10 +161,19 @@ public protocol MNMapVectorElementListenerDelegate : AnyObject {
       get
     }
   }
+  public enum BaseMapStyleName : Swift.String {
+    case DarkStyle
+    case LightStyle
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
   public enum BaseMapStyle : Swift.String {
     case DARK
+    case GREY
     case LIGHT
-    case DEFAULT
     public typealias RawValue = Swift.String
     public init?(rawValue: Swift.String)
     public var rawValue: Swift.String {
@@ -169,6 +181,7 @@ public protocol MNMapVectorElementListenerDelegate : AnyObject {
     }
   }
   public enum LayerType {
+    case pin
     case plotting
     case routing
     case building
@@ -257,10 +270,17 @@ extension MNBasicLayer {
 @_hasMissingDesignatedInitializers public class MapstedMapConverter {
   public static func convertToNTMapPos(from mercator: __ObjC.MNMercator) -> MapSDK.NTMapPos
   public static func convertToNTMapRange(from mapRange: MapstedMap.MapstedMapRange) -> MapSDK.NTMapRange
+  public static func convertToNTMapBounds(mercators: [__ObjC.MNMercator]?, deltaSet: MapstedMap.MapstedMapDelta) -> MapSDK.NTMapBounds?
   public static func convertToNTMapBounds(mercators: [__ObjC.MNMercator], deltaRatioX: Swift.Double, deltaRatioY: Swift.Double, minDeltaX: Swift.Double, minDeltaY: Swift.Double) -> MapSDK.NTMapBounds?
+  public static func getMapBounds(mercators: [__ObjC.MNMercator], deltaSet: MapstedMap.MapstedMapDelta) -> (__ObjC.MNMercator?, __ObjC.MNMercator?)
+  public static func getMapBounds(mercators: [__ObjC.MNMercator], deltaRatioX: Swift.Double, deltaRatioY: Swift.Double, minDeltaX: Swift.Double, minDeltaY: Swift.Double) -> (__ObjC.MNMercator?, __ObjC.MNMercator?)
   @objc deinit
 }
 public class MapstedMapBounds {
+  public var avoidZoomingOutTooFar: Swift.Bool {
+    get
+    set
+  }
   public init(min: __ObjC.MNMercator, max: __ObjC.MNMercator)
   public var min: __ObjC.MNMercator {
     get
@@ -268,12 +288,17 @@ public class MapstedMapBounds {
   public var max: __ObjC.MNMercator {
     get
   }
+  public func getDeltaX() -> Swift.Double
+  public func getDeltaY() -> Swift.Double
+  public func getArea() -> Swift.Double
+  public func getCentroid() -> __ObjC.MNMercator
+  public func doesIntersect(withBounds bounds: MapstedMap.MapstedMapBounds) -> Swift.Bool
   @objc deinit
 }
 public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
-  func onPolygonTapped(polygon: __ObjC.MNMapPolygon, tapType: MapstedMap.MapstedMapApi.TapType, tapPos: __ObjC.MNMercator)
-  func onBalloonClicked(searchEntity: __ObjC.MNSearchEntity)
-  func onMarkerTapped(markerName: Swift.String, markerType: Swift.String)
+  func onTilePolygonTapped(polygon: __ObjC.MNMapPolygon, tapType: MapstedMap.MapstedMapApi.TapType, tapPos: __ObjC.MNMercator)
+  func onTileBalloonClicked(searchEntity: __ObjC.MNSearchEntity)
+  func onTileMarkerTapped(markerName: Swift.String, markerType: Swift.String)
 }
 @objc open class MNMapViewController : GLKit.GLKViewController {
   @objc dynamic public init()
@@ -327,6 +352,7 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
   public enum StartingPoint : Swift.String {
     case CurrentLocation
     case SelectedLocation
+    case SomeEntity
     case Unspecified
     public typealias RawValue = Swift.String
     public init?(rawValue: Swift.String)
@@ -349,6 +375,7 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
   }
   public func setUp(prefetchProperties: Swift.Bool)
   public func setUp(prefetchProperties: Swift.Bool, calibrationMode: Swift.Bool)
+  public func isCalibrationMode() -> Swift.Bool
   public func drawProperty(isSelected: Swift.Bool, propertyData: __ObjC.MNPropertyData)
   public func updateIcons(propertyIds: [Swift.Int], buildingIds: [Swift.Int], mapZoom: Swift.Float, mapRotation: Swift.Float)
   public func removeProperty(propertyId: Swift.Int)
@@ -365,7 +392,7 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
   public func clearAllTagsFromMap()
   public func plotTagsOnMap(propertyId: Swift.Int, tags: [__ObjC.MNTag], propertyTags: [__ObjC.MNTag])
   public func updateUserMarker(position: __ObjC.MNPosition)
-  public func plotLocationMarker()
+  public func plotLocationMarker(completion: ((Swift.Bool) -> Swift.Void)? = nil)
   public func showLocationMarker()
   public func hideLocationMarker()
   public func clearLocationMarker()
@@ -417,6 +444,7 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
   public func drawCurrent(switchFloor: Swift.Bool)
   public func drawCurrent(position: __ObjC.MNPosition, switchFloor: Swift.Bool)
   public func rotateMarker(degree: Swift.Float)
+  public func isUserOnProperty() -> Swift.Bool
   public func selectedLocationMatchesCurrentPosition() -> Swift.Bool
   @objc deinit
 }
@@ -436,6 +464,9 @@ extension MapstedMap.MapstedMapDelta : Swift.Hashable {}
 extension MapstedMap.MapstedMapMeta.MapPanType : Swift.Equatable {}
 extension MapstedMap.MapstedMapMeta.MapPanType : Swift.Hashable {}
 extension MapstedMap.MapstedMapMeta.MapPanType : Swift.RawRepresentable {}
+extension MapstedMap.MapstedMapMeta.BaseMapStyleName : Swift.Equatable {}
+extension MapstedMap.MapstedMapMeta.BaseMapStyleName : Swift.Hashable {}
+extension MapstedMap.MapstedMapMeta.BaseMapStyleName : Swift.RawRepresentable {}
 extension MapstedMap.MapstedMapMeta.BaseMapStyle : Swift.Equatable {}
 extension MapstedMap.MapstedMapMeta.BaseMapStyle : Swift.Hashable {}
 extension MapstedMap.MapstedMapMeta.BaseMapStyle : Swift.RawRepresentable {}
