@@ -199,6 +199,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import MapSDK;
 @import ObjectiveC;
 @import UIKit;
+@import __ObjC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -254,6 +255,11 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 @end
 
 
+@interface MNPosition (SWIFT_EXTENSION(MapstedMap))
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@end
+
+
 
 /// This class contains all public api for map
 SWIFT_CLASS("_TtC10MapstedMap13MapstedMapApi")
@@ -261,6 +267,7 @@ SWIFT_CLASS("_TtC10MapstedMap13MapstedMapApi")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
