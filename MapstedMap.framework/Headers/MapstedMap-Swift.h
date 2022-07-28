@@ -197,6 +197,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreGraphics;
 @import MapSDK;
+@import MapstedCore;
 @import ObjectiveC;
 @import UIKit;
 @import __ObjC;
@@ -269,6 +270,13 @@ SWIFT_CLASS("_TtC10MapstedMap13MapstedMapApi")
 @end
 
 
+
+
+@interface MapstedMapApi (SWIFT_EXTENSION(MapstedMap)) <PositionAnimationListener, PositionChangeListener, PositionVisibilityListener>
+- (void)onPositionChangeWithPosition:(MNPosition * _Nonnull)position;
+- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
+- (void)setPositionVisibilityWithVisible:(BOOL)visible;
+@end
 
 
 
