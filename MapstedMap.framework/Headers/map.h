@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char mapVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <map/PublicHeader.h>
 
-#import "map/UIBezierPath+Interpolation.h"
+//#import "map/UIBezierPath+Interpolation.h"
