@@ -374,6 +374,7 @@ SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame context:(EAGLContext * _Nonnull)context SWIFT_UNAVAILABLE;
 @end
 
+@class UIImageView;
 @class NSLayoutConstraint;
 @class UILabel;
 @class UIButton;
@@ -382,6 +383,11 @@ SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 
 SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 @interface MNMapViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imgLogo;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoTopMargin;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoLeftMargin;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoHeight;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoWidth;
 /// Generic map view controller constructor
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -487,8 +493,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MapstedMapSy
 
 SWIFT_CLASS("_TtC10MapstedMap10UserMarker")
 @interface UserMarker : NSObject
-/// Method to implement the ripple / pulse effect on marker
-- (void)rippleEffect;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
