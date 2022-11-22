@@ -238,7 +238,7 @@ using UInt = size_t;
 @import UIKit;
 #endif
 
-#import "/Users/hirenjoshi/Desktop/My-Works/Others/Mapsted/Workspace/iOS-release/ios-sdk/ios-sdk-map-core/map/MN-Bridging-Header.h"
+#import "/Users/parthbhatt/Documents/Mapsted/Workspace/Release_Workspace/ios-sdk/ios-sdk-map-core/map/MN-Bridging-Header.h"
 
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
