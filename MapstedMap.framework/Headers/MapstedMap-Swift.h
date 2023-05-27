@@ -387,7 +387,7 @@ SWIFT_CLASS("_TtC10MapstedMap28MNMapVectorTileEventListener")
 - (null_unspecified instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class EAGLContext;
+@class MGLContext;
 
 SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 @interface MNMapView : NTMapView
@@ -401,7 +401,7 @@ SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 - (void)accessibilityElementDidLoseFocus;
 - (void)accessibilityElementDidBecomeFocused;
 - (BOOL)accessibilityPerformMagicTap SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithFrame:(CGRect)frame context:(EAGLContext * _Nonnull)context SWIFT_UNAVAILABLE;
+- (null_unspecified instancetype)initWithFrame:(CGRect)frame context:(MGLContext * _Null_unspecified)context SWIFT_UNAVAILABLE;
 @end
 
 @class UIImageView;
