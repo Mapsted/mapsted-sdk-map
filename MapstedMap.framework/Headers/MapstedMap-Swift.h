@@ -458,6 +458,7 @@ SWIFT_CLASS("_TtC10MapstedMap17MNPlottingManager")
 @end
 
 
+
 @interface MNPosition (SWIFT_EXTENSION(MapstedMap))
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
