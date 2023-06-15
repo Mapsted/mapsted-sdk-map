@@ -475,12 +475,21 @@ SWIFT_CLASS("_TtC10MapstedMap16MNVerticalButton")
 @end
 
 
+SWIFT_CLASS("_TtC10MapstedMap20MapPackageDownloader")
+@interface MapPackageDownloader : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+@end
+
+
 /// This class contains all public api for map
 SWIFT_CLASS("_TtC10MapstedMap13MapstedMapApi")
 @interface MapstedMapApi : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -507,6 +516,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MapstedMapSy
 
 
 
+
 @interface MapstedMapSyncApi (SWIFT_EXTENSION(MapstedMap)) <CoreInitCallback>
 - (void)onSuccess;
 - (void)onFailureWithErrorCode:(NSInteger)errorCode errorMessage:(NSString * _Nonnull)errorMessage;
@@ -520,6 +530,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MapstedMapSy
 
 
 
+
+
+@interface NSUserDefaults (SWIFT_EXTENSION(MapstedMap))
+@property (nonatomic, copy) NSString * _Nonnull language;
+@end
 
 
 SWIFT_CLASS("_TtC10MapstedMap10UserMarker")
