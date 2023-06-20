@@ -517,12 +517,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MapstedMapSy
 
 
 
+
 @interface MapstedMapSyncApi (SWIFT_EXTENSION(MapstedMap)) <CoreInitCallback>
 - (void)onSuccess;
-- (void)onFailureWithErrorCode:(NSInteger)errorCode errorMessage:(NSString * _Nonnull)errorMessage;
+- (void)onStatusUpdateWithUpdate:(NSInteger)update;
+- (void)onFailureWithErrorCode:(NSInteger)errorCode;
 - (void)onStatusMessageWithMessageType:(enum StatusMessageType)messageType;
 @end
-
 
 
 
