@@ -418,6 +418,12 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoLeftMargin;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoHeight;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoWidth;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconTopMargin;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconRightMargin;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconHeight;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconWidth;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblCopyright;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCopyrightLabelBottom;
 /// Generic map view controller constructor
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -425,6 +431,7 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 - (BOOL)accessibilityScroll:(UIAccessibilityScrollDirection)direction SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) NSString * _Nullable accessibilityValue;
 - (void)viewDidLoad;
+- (void)onMapMoved;
 - (void)didMoveToParentViewController:(UIViewController * _Nullable)parent;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -520,8 +527,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MapstedMapSy
 
 @interface MapstedMapSyncApi (SWIFT_EXTENSION(MapstedMap)) <CoreInitCallback>
 - (void)onSuccess;
-- (void)onStatusUpdateWithUpdate:(NSInteger)update;
-- (void)onFailureWithErrorCode:(NSInteger)errorCode;
+- (void)onStatusUpdateWithUpdate:(EnumSdkUpdate)update;
+- (void)onFailureWithErrorCode:(EnumSdkError)errorCode;
 - (void)onStatusMessageWithMessageType:(enum StatusMessageType)messageType;
 @end
 
