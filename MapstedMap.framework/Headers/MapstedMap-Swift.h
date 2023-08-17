@@ -299,13 +299,6 @@ SWIFT_CLASS("_TtC10MapstedMap14CircleSelector")
 @end
 
 
-SWIFT_CLASS("_TtC10MapstedMap27FindMyFriendPlottingManager")
-@interface FindMyFriendPlottingManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 SWIFT_CLASS("_TtC10MapstedMap9ImageInfo")
 @interface ImageInfo : NSObject <NSCoding>
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
