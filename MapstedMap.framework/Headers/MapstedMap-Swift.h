@@ -417,6 +417,7 @@ SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 @class UIImageView;
 @class NSLayoutConstraint;
 @class UILabel;
+@class UITraitCollection;
 @class UIButton;
 @class NSNotification;
 @class NSBundle;
@@ -440,6 +441,7 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 - (void)loadView;
 - (BOOL)accessibilityScroll:(UIAccessibilityScrollDirection)direction SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) NSString * _Nullable accessibilityValue;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (void)viewDidLoad;
 - (void)onMapMoved;
 - (void)didMoveToParentViewController:(UIViewController * _Nullable)parent;
