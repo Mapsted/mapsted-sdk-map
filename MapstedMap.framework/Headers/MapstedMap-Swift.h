@@ -553,6 +553,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MapstedMapSy
 
 
 
+
 @interface NSUserDefaults (SWIFT_EXTENSION(MapstedMap))
 @property (nonatomic, copy) NSString * _Nonnull language;
 @end
