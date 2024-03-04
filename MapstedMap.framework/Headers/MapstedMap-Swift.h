@@ -445,8 +445,9 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 - (void)viewDidLoad;
 - (void)onMapMoved;
 - (void)didMoveToParentViewController:(UIViewController * _Nullable)parent;
-- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified compassBtnTopConstraint;
 @property (nonatomic, weak) IBOutlet MNMapFakeView * _Null_unspecified mapFakeView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified errorLabel;
@@ -455,6 +456,7 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 - (void)updateFromNotificationWithSender:(NSNotification * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 @class NTPackageStatus;
@@ -476,6 +478,7 @@ SWIFT_CLASS("_TtC10MapstedMap17MNPlottingManager")
 @interface MNPlottingManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
