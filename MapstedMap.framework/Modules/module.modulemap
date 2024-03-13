@@ -1,4 +1,20 @@
+//
+//  module.modulemap
+//  positioning
+//
+//  Created by Parth Bhatt on 20/01/24.
+//  Copyright © 2024 Mapsted. All rights reserved.
+//
+
 framework module MapstedMap {
+  umbrella header "MapstedMap.h"
+
+  // Include your Objective-C headers
+  export *
+  module * { export * }
+}
+
+module MapstedMap.Swift {
   header "MapstedMap-Swift.h"
   requires objc
 }

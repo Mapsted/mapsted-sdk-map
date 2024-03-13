@@ -285,8 +285,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 #endif
 
-#import "MN-Bridging-Header.h"
-
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -306,102 +304,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class NSCoder;
-
-/// A special  UIView displayed as a
-SWIFT_CLASS("_TtC10MapstedMap14CircleSelector")
-@interface CircleSelector : UIView
-- (void)drawRect:(CGRect)rect;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC10MapstedMap9ImageInfo")
-@interface ImageInfo : NSObject <NSCoding>
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_PROTOCOL("_TtP10MapstedMap19MNContactUsDelegate_")
-@protocol MNContactUsDelegate
-- (void)linkPressed:(id _Nonnull)sender;
-@end
-
-@class UITouch;
-@class UIEvent;
-
-SWIFT_CLASS("_TtC10MapstedMap16MNBackgroundView")
-@interface MNBackgroundView : UIView <MNContactUsDelegate>
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)linkPressed:(id _Nonnull)sender;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 @class NSString;
-
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC10MapstedMap15MNContactUsView")
-@interface MNContactUsView : UIView
-@property (nonatomic, weak) IBOutlet id <MNContactUsDelegate> _Nullable delegate;
-@property (nonatomic, copy) IBInspectable NSString * _Nullable nibName;
-- (void)awakeFromNib;
-- (void)prepareForInterfaceBuilder;
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (IBAction)linkButtonPressed:(id _Nonnull)sender;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC10MapstedMap13MNMapFakeView")
-@interface MNMapFakeView : UIView
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NTMapInteractionInfo;
-@class NTMapClickInfo;
-
-SWIFT_CLASS("_TtC10MapstedMap13MNMapListener")
-@interface MNMapListener : NTMapEventListener
-- (void)onMapMoved;
-- (void)onMapInteraction:(NTMapInteractionInfo * _Null_unspecified)mapInteractionInfo;
-- (void)onMapStable;
-- (void)onMapIdle;
-- (void)onMapClicked:(NTMapClickInfo * _Null_unspecified)mapClickInfo;
-- (null_unspecified instancetype)initWithCptr:(void * _Null_unspecified)cptr swigOwnCObject:(BOOL)ownCObject OBJC_DESIGNATED_INITIALIZER;
-- (null_unspecified instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NTVectorElementClickInfo;
-
-SWIFT_CLASS("_TtC10MapstedMap26MNMapVectorElementListener")
-@interface MNMapVectorElementListener : NTVectorElementEventListener
-- (BOOL)onVectorElementClicked:(NTVectorElementClickInfo * _Null_unspecified)clickInfo SWIFT_WARN_UNUSED_RESULT;
-- (null_unspecified instancetype)initWithCptr:(void * _Null_unspecified)cptr swigOwnCObject:(BOOL)ownCObject OBJC_DESIGNATED_INITIALIZER;
-- (null_unspecified instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NTVectorTileClickInfo;
-
-SWIFT_CLASS("_TtC10MapstedMap28MNMapVectorTileEventListener")
-@interface MNMapVectorTileEventListener : NTVectorTileEventListener
-- (BOOL)onVectorTileClicked:(NTVectorTileClickInfo * _Null_unspecified)clickInfo SWIFT_WARN_UNUSED_RESULT;
-- (null_unspecified instancetype)initWithCptr:(void * _Null_unspecified)cptr swigOwnCObject:(BOOL)ownCObject OBJC_DESIGNATED_INITIALIZER;
-- (null_unspecified instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class MGLContext;
 
 SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 @interface MNMapView : NTMapView
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (null_unspecified instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Null_unspecified)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, copy) NSString * _Nullable accessibilityValue;
@@ -414,27 +323,11 @@ SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 - (null_unspecified instancetype)initWithFrame:(CGRect)frame context:(MGLContext * _Null_unspecified)context SWIFT_UNAVAILABLE;
 @end
 
-@class UIImageView;
-@class NSLayoutConstraint;
-@class UILabel;
 @class UITraitCollection;
-@class UIButton;
-@class NSNotification;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 @interface MNMapViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imgLogo;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoTopMargin;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoLeftMargin;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoHeight;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintLogoWidth;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconTopMargin;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconRightMargin;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconHeight;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCompassIconWidth;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblCopyright;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified constraintCopyrightLabelBottom;
 /// Generic map view controller constructor
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -448,35 +341,7 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified compassBtnTopConstraint;
-@property (nonatomic, weak) IBOutlet MNMapFakeView * _Null_unspecified mapFakeView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified errorLabel;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified compassBtn;
-- (IBAction)compassBtnTapped:(id _Nonnull)sender;
-- (void)updateFromNotificationWithSender:(NSNotification * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-
-
-@class NTPackageStatus;
-
-SWIFT_CLASS("_TtC10MapstedMap24MNPackageManagerListener")
-@interface MNPackageManagerListener : NTPackageManagerListener
-- (void)onPackageListUpdated;
-- (void)onPackageListFailed;
-- (void)onPackageUpdated:(NSString * _Null_unspecified)arg1 version:(int32_t)version;
-- (void)onPackageCancelled:(NSString * _Null_unspecified)arg1 version:(int32_t)version;
-- (void)onPackageFailed:(NSString * _Null_unspecified)arg1 version:(int32_t)version errorType:(NTPackageErrorType)errorType;
-- (void)onPackageStatusChanged:(NSString * _Null_unspecified)arg1 version:(int32_t)version status:(NTPackageStatus * _Null_unspecified)status;
-- (null_unspecified instancetype)initWithCptr:(void * _Null_unspecified)cptr swigOwnCObject:(BOOL)ownCObject OBJC_DESIGNATED_INITIALIZER;
-- (null_unspecified instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC10MapstedMap17MNPlottingManager")
-@interface MNPlottingManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -486,16 +351,6 @@ SWIFT_CLASS("_TtC10MapstedMap17MNPlottingManager")
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
-
-
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC10MapstedMap16MNVerticalButton")
-@interface MNVerticalButton : UIButton
-- (void)prepareForInterfaceBuilder;
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC10MapstedMap20MapPackageDownloader")
@@ -532,41 +387,11 @@ SWIFT_CLASS("_TtC10MapstedMap13MapstedMapApi")
 
 
 
-/// This class is not exposed outside the framework. Use internally between model & view.
-/// See <code>MapstedMapApi</code> for public apis open outside framework.
-SWIFT_CLASS("_TtC10MapstedMap17MapstedMapSyncApi")
-@interface MapstedMapSyncApi : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MapstedMapSyncApi * _Nonnull shared;)
-+ (MapstedMapSyncApi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-@interface NSUserDefaults (SWIFT_EXTENSION(MapstedMap))
-@property (nonatomic, copy) NSString * _Nonnull language;
-@end
-
-
-SWIFT_CLASS("_TtC10MapstedMap10UserMarker")
-@interface UserMarker : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 #endif
