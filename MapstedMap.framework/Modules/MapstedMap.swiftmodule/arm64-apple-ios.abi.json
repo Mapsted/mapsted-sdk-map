@@ -20133,6 +20133,33 @@
           },
           {
             "kind": "Function",
+            "name": "buildingId",
+            "printedName": "buildingId(segmentIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap0aB3ApiC10buildingId12segmentIndexS2i_tF",
+            "mangledName": "$s10MapstedMap0aB3ApiC10buildingId12segmentIndexS2i_tF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "routingInstructions",
             "printedName": "routingInstructions(routeIndex:)",
             "children": [
@@ -25797,49 +25824,49 @@
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 24288,
+      "offset": 24421,
       "length": 51,
       "value": "\"#Map: Will switch to segment \""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 24338,
+      "offset": 24471,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 32440,
+      "offset": 32573,
       "length": 14,
       "value": "\"IS_DARK_MODE\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 32575,
+      "offset": 32708,
       "length": 6,
       "value": "\"DARK\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "FloatLiteral",
-      "offset": 35558,
+      "offset": 35691,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 37231,
+      "offset": 37364,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 38234,
+      "offset": 38367,
       "length": 56,
       "value": "\"MapstedMaySyncApi - PackageDelegate - onFailure called\""
     },
@@ -40077,35 +40104,35 @@
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 25561,
+      "offset": 25605,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25923,
+      "offset": 25967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 26614,
+      "offset": 26658,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27215,
+      "offset": 27259,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27875,
+      "offset": 27919,
       "length": 3,
       "value": "0.5"
     },
@@ -40881,470 +40908,498 @@
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7809,
-      "length": 2,
-      "value": "-1"
+      "kind": "FloatLiteral",
+      "offset": 7854,
+      "length": 4,
+      "value": "0.25"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7998,
+      "offset": 8653,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8547,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8559,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8566,
+      "offset": 8698,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9568,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11260,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11293,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12269,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12964,
+      "offset": 9054,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13008,
+      "offset": 9066,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13178,
+      "offset": 9073,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10075,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11800,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12776,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13476,
+      "offset": 13303,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13474,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14241,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14411,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14709,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13673,
+      "offset": 14906,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14111,
+      "offset": 15344,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14144,
+      "offset": 15377,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 15523,
+      "offset": 16756,
       "length": 101,
       "value": "\"#Map. Now plotting on building \""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 15568,
+      "offset": 16801,
       "length": 1,
       "value": "\". Routing Layer is visible: \""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 15623,
+      "offset": 16856,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16126,
+      "offset": 17359,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16783,
+      "offset": 18016,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16845,
+      "offset": 18078,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17047,
+      "offset": 18280,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17622,
+      "offset": 18855,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18203,
+      "offset": 19436,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 18445,
+      "offset": 19678,
       "length": 30,
       "value": "\"#Map: \""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 18467,
+      "offset": 19700,
       "length": 6,
       "value": "\" routes\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18593,
+      "offset": 19826,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 18874,
+      "offset": 20107,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19147,
+      "offset": 20380,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19193,
+      "offset": 20426,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19248,
+      "offset": 20481,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19299,
+      "offset": 20532,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 19492,
+      "offset": 20725,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20115,
+      "offset": 21348,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20470,
+      "offset": 21703,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20546,
+      "offset": 21779,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20629,
+      "offset": 21862,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22128,
+      "offset": 23361,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22257,
+      "offset": 23490,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23730,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23859,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 22482,
+      "offset": 24087,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23109,
+      "offset": 24714,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23149,
+      "offset": 24754,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23521,
+      "offset": 25126,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23555,
+      "offset": 25160,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23912,
+      "offset": 25517,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 24015,
+      "offset": 25620,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24616,
+      "offset": 26221,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25023,
+      "offset": 26628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25184,
+      "offset": 26789,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25210,
+      "offset": 26815,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25729,
+      "offset": 27334,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25764,
+      "offset": 27369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25873,
+      "offset": 27478,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26694,
+      "offset": 28299,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26920,
+      "offset": 28525,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 27093,
+      "offset": 28698,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 27292,
+      "offset": 28897,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27601,
+      "offset": 29206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 27952,
+      "offset": 29557,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 28827,
+      "offset": 30432,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 28920,
+      "offset": 30525,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28934,
+      "offset": 30539,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 28985,
+      "offset": 30590,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 29197,
+      "offset": 30802,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 33759,
+      "offset": 35364,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35610,
+      "offset": 37215,
       "length": 2,
       "value": "-1"
     },
@@ -42702,385 +42757,385 @@
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 20692,
+      "offset": 20837,
       "length": 39,
       "value": "\"Do not have map or routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "Array",
-      "offset": 20752,
+      "offset": 20897,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 21216,
+      "offset": 21361,
       "length": 39,
       "value": "\"Do not have map or routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "Array",
-      "offset": 21276,
+      "offset": 21421,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 22788,
+      "offset": 22933,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 23534,
+      "offset": 23679,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 23587,
+      "offset": 23732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 24106,
+      "offset": 24251,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 24847,
+      "offset": 24992,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 26004,
+      "offset": 26149,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 26731,
+      "offset": 26876,
       "length": 48,
       "value": "\"Do not have routing and positioning permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 27381,
+      "offset": 27526,
       "length": 48,
       "value": "\"Do not have routing and positioning permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 27906,
+      "offset": 28051,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 28239,
+      "offset": 28384,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 28738,
+      "offset": 28883,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 29136,
+      "offset": 29281,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 29697,
+      "offset": 29842,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 30040,
+      "offset": 30185,
       "length": 32,
       "value": "\"Do not have routing permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 30789,
+      "offset": 30934,
       "length": 48,
       "value": "\"Do not have routing and positioning permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "Array",
-      "offset": 30858,
+      "offset": 31003,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 31477,
+      "offset": 31622,
       "length": 48,
       "value": "\"Do not have routing and positioning permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 32189,
+      "offset": 32334,
       "length": 48,
       "value": "\"Do not have routing and positioning permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 33073,
+      "offset": 33218,
       "length": 48,
       "value": "\"Do not have routing and positioning permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 33822,
+      "offset": 33967,
       "length": 48,
       "value": "\"Do not have routing and positioning permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 34874,
+      "offset": 35019,
       "length": 28,
       "value": "\"Do not have Map permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 35256,
+      "offset": 35401,
       "length": 28,
       "value": "\"Do not have Map permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 35682,
+      "offset": 35827,
       "length": 28,
       "value": "\"Do not have Map permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 36046,
+      "offset": 36191,
       "length": 28,
       "value": "\"Do not have Map permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 36393,
+      "offset": 36538,
       "length": 28,
       "value": "\"Do not have Map permission\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 37030,
+      "offset": 37175,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 37109,
+      "offset": 37254,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 37323,
+      "offset": 37468,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 37376,
+      "offset": 37521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 37705,
+      "offset": 37850,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 37795,
+      "offset": 37940,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 43770,
+      "offset": 43915,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 43905,
+      "offset": 44050,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44194,
+      "offset": 44339,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44233,
+      "offset": 44378,
       "length": 8,
       "value": "\"select\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44327,
+      "offset": 44472,
       "length": 10,
       "value": "\"property\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44412,
+      "offset": 44557,
       "length": 10,
       "value": "\"building\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44497,
+      "offset": 44642,
       "length": 8,
       "value": "\"entity\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 44662,
+      "offset": 44807,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 45022,
+      "offset": 45167,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45101,
+      "offset": 45246,
       "length": 9,
       "value": "\"routing\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45196,
+      "offset": 45341,
       "length": 10,
       "value": "\"property\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45283,
+      "offset": 45428,
       "length": 14,
       "value": "\"destinations\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45326,
+      "offset": 45471,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "Array",
-      "offset": 45388,
+      "offset": 45533,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45487,
+      "offset": 45632,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45730,
+      "offset": 45875,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 46326,
+      "offset": 46471,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 46482,
+      "offset": 46627,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 46572,
+      "offset": 46717,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "FloatLiteral",
-      "offset": 47782,
+      "offset": 47927,
       "length": 3,
       "value": "0.6"
     },

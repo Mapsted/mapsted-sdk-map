@@ -727,6 +727,7 @@ public enum UserPositionScenario : Swift.Int {
   public func routeStartAndDestinationNames() -> (Swift.String?, Swift.String?)
   public func routeStartAndDestinationNamesForRoute(routeIndex: Swift.Int) -> (Swift.String?, Swift.String?)
   public func floorId(segmentIndex: Swift.Int) -> Swift.Int
+  public func buildingId(segmentIndex: Swift.Int) -> Swift.Int
   public func routingInstructions(routeIndex: Swift.Int) -> [[MapstedCore.MNRouteNode]]
   public func routingInstructions() -> [MapstedCore.MNRouteNode]
   public func routeCount() -> Swift.Int
