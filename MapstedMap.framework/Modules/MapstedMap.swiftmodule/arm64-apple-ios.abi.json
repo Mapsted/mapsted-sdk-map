@@ -14155,6 +14155,13 @@
         "moduleName": "MapstedMap"
       },
       {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MapstedMap"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MNMapViewController",
         "printedName": "MNMapViewController",
@@ -39341,798 +39348,861 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 228,
+      "offset": 246,
       "length": 27,
       "value": "\"https:\/\/mapsted.com\/#\/tos\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 337,
+      "offset": 355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 387,
+      "offset": 405,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 450,
+      "offset": 468,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 497,
+      "offset": 515,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 546,
+      "offset": 564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 771,
+      "offset": 789,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1602,
+      "offset": 1620,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1658,
+      "offset": 1676,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1710,
+      "offset": 1728,
       "length": 4,
       "value": "38.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1761,
+      "offset": 1779,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1831,
+      "offset": 1849,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1897,
+      "offset": 1915,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1957,
+      "offset": 1975,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2016,
+      "offset": 2034,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2090,
+      "offset": 2108,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2496,
       "length": 19,
       "value": "\"MapViewController\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2806,
+      "offset": 2824,
       "length": 21,
       "value": "\"MNMapViewController\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2894,
+      "offset": 2912,
       "length": 21,
       "value": "\"MNMapViewController\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3059,
+      "offset": 3077,
       "length": 50,
       "value": "\"Please call generic map view controller instead.\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3322,
       "length": 6,
       "value": "\"Zoom\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3487,
+      "offset": 3505,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3509,
+      "offset": 3527,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3578,
+      "offset": 3596,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3770,
+      "offset": 3788,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3793,
+      "offset": 3811,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3862,
+      "offset": 3880,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4152,
+      "offset": 4170,
       "length": 10,
       "value": "15654304.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4169,
+      "offset": 4187,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4295,
+      "offset": 4313,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4371,
+      "offset": 4389,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4395,
+      "offset": 4413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4460,
+      "offset": 4478,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4539,
+      "offset": 4557,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4563,
+      "offset": 4581,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4638,
+      "offset": 4656,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4706,
+      "offset": 4724,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4730,
+      "offset": 4748,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4808,
+      "offset": 4826,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4878,
+      "offset": 4896,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4902,
+      "offset": 4920,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4943,
+      "offset": 4961,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5409,
+      "offset": 5427,
       "length": 12,
       "value": "\"Zoom level\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5488,
+      "offset": 5506,
       "length": 12,
       "value": "\"Zoom level\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5521,
+      "offset": 5539,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5534,
+      "offset": 5552,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5547,
+      "offset": 5565,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5971,
+      "offset": 5989,
       "length": 6,
       "value": "\"DARK\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5987,
+      "offset": 6005,
       "length": 14,
       "value": "\"IS_DARK_MODE\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6066,
+      "offset": 6084,
       "length": 7,
       "value": "\"LIGHT\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6083,
+      "offset": 6101,
       "length": 14,
       "value": "\"IS_DARK_MODE\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6466,
+      "offset": 6484,
       "length": 29,
       "value": "\"Loading MNMapViewController\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6659,
+      "offset": 6677,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7918,
+      "offset": 7936,
       "length": 105,
       "value": "\"Map Views are NOT same. So remove the mapview from MNMapManager and setup the map and its layers again.\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8332,
+      "offset": 8350,
       "length": 20,
       "value": "\"Map views are same\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8562,
+      "offset": 8580,
       "length": 12,
       "value": "\"onMapMoved\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8840,
+      "offset": 8896,
       "length": 12,
       "value": "\"onMapMoved\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9343,
+      "offset": 9399,
       "length": 6,
       "value": "\"DARK\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9359,
+      "offset": 9415,
       "length": 14,
       "value": "\"IS_DARK_MODE\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9438,
+      "offset": 9494,
       "length": 7,
       "value": "\"LIGHT\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9455,
+      "offset": 9511,
       "length": 14,
       "value": "\"IS_DARK_MODE\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10189,
+      "offset": 10245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10428,
+      "offset": 10484,
       "length": 28,
       "value": "\"Do not have Map permission\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11426,
+      "offset": 11482,
       "length": 16,
       "value": "\"ic_map_compass\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13454,
+      "offset": 13510,
       "length": 7,
       "value": "\"logo2\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14510,
+      "offset": 14566,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 14567,
+      "offset": 14623,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 14721,
+      "offset": 14777,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 14912,
+      "offset": 14968,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 15196,
+      "offset": 15252,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 15534,
+      "offset": 15590,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15857,
+      "offset": 15913,
       "length": 41,
       "value": "\"cannot cast view to mapview (MNMapView)\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16223,
+      "offset": 16279,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 16339,
+      "offset": 16395,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17003,
+      "offset": 17059,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17179,
+      "offset": 17235,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 17199,
+      "offset": 17255,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17924,
+      "offset": 17980,
       "length": 21,
       "value": "\"Lacking permissions\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18086,
+      "offset": 18142,
       "length": 73,
       "value": "\"move to current position however, do not have current position detected\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18583,
+      "offset": 18639,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18625,
+      "offset": 18681,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18896,
+      "offset": 18952,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19057,
+      "offset": 19113,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19121,
+      "offset": 19177,
       "length": 21,
       "value": "\"unsupported_feature\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19209,
+      "offset": 19265,
       "length": 53,
       "value": "\"The licence provided does not support this feature.\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19479,
+      "offset": 19535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19605,
+      "offset": 19661,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "StringLiteral",
-      "offset": 269,
+      "offset": 287,
       "length": 19,
       "value": "\"MapstedMap.MNMapViewController\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 20454,
+      "offset": 20510,
       "length": 4,
       "value": "90.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "Array",
-      "offset": 20655,
+      "offset": 20711,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "Array",
-      "offset": 20700,
+      "offset": 20756,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "Array",
-      "offset": 20741,
+      "offset": 20797,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21122,
+      "offset": 21178,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21163,
+      "offset": 21219,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 21208,
+      "offset": 21264,
       "length": 4,
       "value": "1E10"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 21255,
+      "offset": 21311,
       "length": 4,
       "value": "1E10"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21362,
+      "offset": 21418,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22589,
+      "offset": 22645,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 23301,
+      "offset": 23357,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24080,
+      "offset": 24136,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24197,
+      "offset": 24253,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24270,
+      "offset": 24326,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24334,
+      "offset": 24390,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24399,
+      "offset": 24455,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24524,
+      "offset": 24580,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24551,
+      "offset": 24607,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24938,
+      "offset": 24994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25021,
+      "offset": 25077,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25186,
+      "offset": 25242,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 25605,
+      "offset": 25661,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25967,
+      "offset": 26023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 26520,
+      "length": 82,
+      "value": "\"Please provide access to Motion and Fitness data for enhanced blue dot accuracy.\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 26669,
+      "length": 82,
+      "value": "\"Please provide access to Motion and Fitness data for enhanced blue dot accuracy.\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 26658,
+      "offset": 27055,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27404,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27475,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27526,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27601,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27656,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28216,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 28514,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27259,
+      "offset": 29115,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MNMapViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27919,
+      "offset": 29775,
       "length": 3,
       "value": "0.5"
     },
