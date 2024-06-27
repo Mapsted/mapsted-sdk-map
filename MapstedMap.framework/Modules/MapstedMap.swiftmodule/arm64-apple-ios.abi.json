@@ -7239,6 +7239,34 @@
           },
           {
             "kind": "Function",
+            "name": "centerOnBuilding",
+            "printedName": "centerOnBuilding(buildingId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap0aB7SyncApiC16centerOnBuilding10buildingIdSbSi_tF",
+            "mangledName": "$s10MapstedMap0aB7SyncApiC16centerOnBuilding10buildingIdSbSi_tF",
+            "moduleName": "MapstedMap",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setDestinationPinImage",
             "printedName": "setDestinationPinImage(destinationPin:)",
             "children": [
@@ -64918,17 +64946,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MapstedMap.MNMapView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MNMapView",
-                    "printedName": "MapstedMap.MNMapView",
-                    "usr": "c:@M@MapstedMap@objc(cs)MNMapView"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "MNMapView",
+                "printedName": "MapstedMap.MNMapView",
+                "usr": "c:@M@MapstedMap@objc(cs)MNMapView"
               },
               {
                 "kind": "TypeNominal",
@@ -64938,22 +64958,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "MapSDK.MGLContext?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MGLContext",
-                    "printedName": "MapSDK.MGLContext",
-                    "usr": "c:objc(cs)MGLContext"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "EAGLContext",
+                "printedName": "OpenGLES.EAGLContext",
+                "usr": "c:objc(cs)EAGLContext"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@MapstedMap@objc(cs)MNMapView(im)initWithFrame:context:",
-            "mangledName": "$s10MapstedMap9MNMapViewC5frame7contextACSgSo6CGRectV_So10MGLContextCSgtcfc",
+            "mangledName": "$s10MapstedMap9MNMapViewC5frame7contextACSo6CGRectV_So11EAGLContextCtcfc",
             "moduleName": "MapstedMap",
             "overriding": true,
             "implicit": true,
@@ -64982,7 +64994,7 @@
         "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "MapSDK.NTMapView",
-          "MapSDK.MGLKView",
+          "GLKit.GLKView",
           "UIKit.UIView",
           "UIKit.UIResponder",
           "ObjectiveC.NSObject"
@@ -79383,6 +79395,35 @@
             "declKind": "Func",
             "usr": "s:10MapstedMap0aB3ApiC16centerOnProperty10propertyIdSbSi_tF",
             "mangledName": "$s10MapstedMap0aB3ApiC16centerOnProperty10propertyIdSbSi_tF",
+            "moduleName": "MapstedMap",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerOnBuilding",
+            "printedName": "centerOnBuilding(buildingId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap0aB3ApiC16centerOnBuilding10buildingIdSbSi_tF",
+            "mangledName": "$s10MapstedMap0aB3ApiC16centerOnBuilding10buildingIdSbSi_tF",
             "moduleName": "MapstedMap",
             "isOpen": true,
             "declAttributes": [
