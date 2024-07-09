@@ -305,7 +305,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSCoder;
 @class NSString;
-@class EAGLContext;
+@class MGLContext;
 
 SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 @interface MNMapView : NTMapView
@@ -320,7 +320,7 @@ SWIFT_CLASS("_TtC10MapstedMap9MNMapView")
 - (void)accessibilityElementDidLoseFocus;
 - (void)accessibilityElementDidBecomeFocused;
 - (BOOL)accessibilityPerformMagicTap SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithFrame:(CGRect)frame context:(EAGLContext * _Nonnull)context SWIFT_UNAVAILABLE;
+- (null_unspecified instancetype)initWithFrame:(CGRect)frame context:(MGLContext * _Null_unspecified)context SWIFT_UNAVAILABLE;
 @end
 
 @class UITraitCollection;
