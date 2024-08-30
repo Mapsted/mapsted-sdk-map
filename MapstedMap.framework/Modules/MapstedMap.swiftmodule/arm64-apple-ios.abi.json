@@ -25019,546 +25019,546 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3458,
       "length": 89,
       "value": "\"Found property entity \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3509,
       "length": 3,
       "value": "\" for  \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 3546,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3533,
+      "offset": 3620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4417,
+      "offset": 4504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 4563,
       "length": 25,
       "value": "\"propertyIconFetchThread\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 4887,
+      "offset": 4974,
       "length": 106,
       "value": "\"Property: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 4926,
+      "offset": 5013,
       "length": 7,
       "value": "\" already shown on map. Please call remove from map first to redraw\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6398,
+      "offset": 6485,
       "length": 119,
       "value": "\"Selecting entityId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6442,
+      "offset": 6529,
       "length": 1,
       "value": "\", with propertyId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6486,
+      "offset": 6573,
       "length": 1,
       "value": "\", but property data not found.\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6704,
+      "offset": 6791,
       "length": 76,
       "value": "\"Cannot get property layer when select an entityId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6779,
+      "offset": 6866,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7063,
+      "offset": 7150,
       "length": 69,
       "value": "\"Cannot get polygon when select an entityId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7131,
+      "offset": 7218,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7487,
+      "offset": 7574,
       "length": 45,
       "value": "\"Polygon not selectable but asked to select.\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8372,
+      "offset": 8459,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 8574,
+      "offset": 8661,
       "length": 26,
       "value": "\"No property layer found.\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 9774,
+      "offset": 9861,
       "length": 65,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 9795,
+      "offset": 9882,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 9818,
+      "offset": 9905,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 9838,
+      "offset": 9925,
       "length": 1,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9982,
-      "length": 9,
-      "value": "\"AlertID\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10025,
-      "length": 65,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10046,
-      "length": 1,
-      "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
       "offset": 10069,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10089,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10544,
       "length": 9,
       "value": "\"AlertID\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 10713,
+      "offset": 10112,
+      "length": 65,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10133,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10156,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10176,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10631,
+      "length": 9,
+      "value": "\"AlertID\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10800,
       "length": 7,
       "value": "\"ALERT\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 10839,
+      "offset": 10926,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11543,
+      "offset": 11630,
       "length": 9,
       "value": "\"AlertID\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11586,
+      "offset": 11673,
       "length": 65,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11607,
+      "offset": 11694,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11630,
+      "offset": 11717,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11650,
+      "offset": 11737,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11964,
+      "offset": 12051,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12026,
+      "offset": 12113,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13467,
+      "offset": 13554,
       "length": 5,
       "value": "\"TAG\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14572,
+      "offset": 14659,
       "length": 13,
       "value": "\"CUSTOM_ICON\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15108,
+      "offset": 15195,
       "length": 14,
       "value": "\"CustomIconId\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "Array",
-      "offset": 15609,
+      "offset": 15696,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17352,
+      "offset": 17439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17850,
+      "offset": 17937,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 18577,
+      "offset": 18664,
       "length": 32,
       "value": "\"Property Level Marker Drawing:\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 18736,
+      "offset": 18823,
       "length": 101,
       "value": "\"Marker Drawing: Populating \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 18787,
+      "offset": 18874,
       "length": 7,
       "value": "\" markers for property \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 18836,
+      "offset": 18923,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 19239,
+      "offset": 19326,
       "length": 46,
       "value": "\"Marker Drawing: No valid image \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 19284,
+      "offset": 19371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 19372,
+      "offset": 19459,
       "length": 51,
       "value": "\"Marker Drawing: Fetching images for \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 19422,
+      "offset": 19509,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "Dictionary",
-      "offset": 19716,
+      "offset": 19803,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "Dictionary",
-      "offset": 19816,
+      "offset": 19903,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21645,
+      "offset": 21732,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22596,
+      "offset": 22683,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22728,
+      "offset": 22815,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 23918,
+      "offset": 24005,
       "length": 15,
       "value": "\"Map Drawing :\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24293,
+      "offset": 24380,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24302,
+      "offset": 24389,
       "length": 2,
       "value": "\" In cache. Image found with with \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24341,
+      "offset": 24428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24388,
+      "offset": 24475,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24501,
+      "offset": 24588,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24510,
+      "offset": 24597,
       "length": 3,
       "value": "\" Not in cache. Downloading image \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24549,
+      "offset": 24636,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24807,
+      "offset": 24894,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24960,
+      "offset": 25047,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24966,
+      "offset": 25053,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 25056,
+      "offset": 25143,
       "length": 45,
       "value": "\"Errored out with \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 25100,
+      "offset": 25187,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25138,
+      "offset": 25225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 25580,
+      "offset": 25667,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 25589,
+      "offset": 25676,
       "length": 5,
       "value": "\" Saved in Cache \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 25611,
+      "offset": 25698,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25653,
+      "offset": 25740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25793,
+      "offset": 25880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25924,
+      "offset": 26011,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27690,
+      "offset": 27777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27898,
+      "offset": 27985,
       "length": 5,
       "value": "false"
     },
@@ -34476,1078 +34476,1078 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4615,
+      "offset": 4711,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 5977,
+      "offset": 6119,
       "length": 46,
       "value": "\"Should print markers for floor Id \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6022,
+      "offset": 6164,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6363,
+      "offset": 6505,
       "length": 57,
       "value": "\"Layer Issue: No building layer with Floor Id \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6419,
+      "offset": 6561,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6489,
+      "offset": 6631,
       "length": 17,
       "value": "\"iconFetchThread\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6767,
+      "offset": 6909,
       "length": 32,
       "value": "\"Building Level Marker Drawing:\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6917,
+      "offset": 7059,
       "length": 94,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6926,
+      "offset": 7068,
       "length": 10,
       "value": "\" Populating \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 6961,
+      "offset": 7103,
       "length": 7,
       "value": "\" markers for building \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7010,
+      "offset": 7152,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Array",
-      "offset": 7097,
+      "offset": 7239,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7471,
+      "offset": 7613,
       "length": 39,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7480,
+      "offset": 7622,
       "length": 2,
       "value": "\" No valid image \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7509,
+      "offset": 7651,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Dictionary",
-      "offset": 7914,
+      "offset": 8056,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Dictionary",
-      "offset": 7994,
+      "offset": 8136,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Dictionary",
-      "offset": 8104,
+      "offset": 8246,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9385,
+      "offset": 9527,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Dictionary",
-      "offset": 10090,
+      "offset": 10232,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10803,
+      "offset": 10945,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 10855,
+      "offset": 10997,
       "length": 75,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 10864,
+      "offset": 11006,
       "length": 6,
       "value": "\" Adding iconDetail for \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 10909,
+      "offset": 11051,
       "length": 4,
       "value": "\" with \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 10928,
+      "offset": 11070,
       "length": 2,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12309,
+      "offset": 12451,
       "length": 73,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12318,
+      "offset": 12460,
       "length": 6,
       "value": "\" Adding iconDetail for \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12363,
+      "offset": 12505,
       "length": 3,
       "value": "\" set light marker \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12540,
+      "offset": 12682,
       "length": 72,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12549,
+      "offset": 12691,
       "length": 6,
       "value": "\" Adding iconDetail for \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12594,
+      "offset": 12736,
       "length": 3,
       "value": "\" set dark marker \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12845,
+      "offset": 12987,
       "length": 75,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12854,
+      "offset": 12996,
       "length": 6,
       "value": "\" Adding iconDetail for \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12899,
+      "offset": 13041,
       "length": 3,
       "value": "\" set default marker \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13235,
+      "offset": 13377,
       "length": 70,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13244,
+      "offset": 13386,
       "length": 6,
       "value": "\" Adding marker with \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13277,
+      "offset": 13419,
       "length": 3,
       "value": "\" for \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13304,
+      "offset": 13446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13702,
+      "offset": 13844,
       "length": 109,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13711,
+      "offset": 13853,
       "length": 20,
       "value": "\" AddAllVectorElements with \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13751,
+      "offset": 13893,
       "length": 3,
       "value": "\" for Floor \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13772,
+      "offset": 13914,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 13804,
+      "offset": 13946,
       "length": 5,
       "value": "\" items\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14296,
+      "offset": 14438,
       "length": 130,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14305,
+      "offset": 14447,
       "length": 20,
       "value": "\" AddAllVectorElements(EntityVectorElement:) with \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14367,
+      "offset": 14509,
       "length": 3,
       "value": "\" for Floor \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14388,
+      "offset": 14530,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14419,
+      "offset": 14561,
       "length": 5,
       "value": "\" items\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14632,
+      "offset": 14774,
       "length": 8,
       "value": "\"✔️\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14731,
+      "offset": 14873,
       "length": 5,
       "value": "\"❌\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 14979,
+      "offset": 15121,
       "length": 28,
       "value": "\"Dispatch Group left: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15006,
+      "offset": 15148,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15313,
+      "offset": 15455,
       "length": 105,
       "value": "\"Building: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15352,
+      "offset": 15494,
       "length": 7,
       "value": "\" already show on map. Please call remove from map first to redraw\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15598,
+      "offset": 15740,
       "length": 25,
       "value": "\"Cannot get buildingInfo\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 16275,
+      "offset": 16417,
       "length": 41,
       "value": "\"No building layer or floor layer found.\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 17256,
+      "offset": 17398,
       "length": 119,
       "value": "\"Selecting entityId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 17300,
+      "offset": 17442,
       "length": 1,
       "value": "\", with buildingId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 17344,
+      "offset": 17486,
       "length": 1,
       "value": "\", but building data not found.\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 17629,
+      "offset": 17771,
       "length": 92,
       "value": "\"Cannot get building layer or floor layers when select an entityId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 17720,
+      "offset": 17862,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 18043,
+      "offset": 18185,
       "length": 69,
       "value": "\"Cannot get polygon when select an entityId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 18111,
+      "offset": 18253,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 18479,
+      "offset": 18621,
       "length": 45,
       "value": "\"Polygon not selectable but asked to select.\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 19358,
+      "offset": 19500,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 19964,
+      "offset": 20106,
       "length": 81,
       "value": "\"Cannot switch floor. Unable to get building layer for BuildingId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 20044,
+      "offset": 20186,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 20268,
+      "offset": 20410,
       "length": 62,
       "value": "\"BuildingId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 20294,
+      "offset": 20436,
       "length": 4,
       "value": "\" does not have FloorId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 20328,
+      "offset": 20470,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20473,
+      "offset": 20615,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21661,
+      "offset": 21803,
       "length": 65,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21682,
+      "offset": 21824,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21702,
+      "offset": 21844,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21725,
+      "offset": 21867,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21869,
+      "offset": 22011,
       "length": 9,
       "value": "\"AlertID\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21912,
+      "offset": 22054,
       "length": 65,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21933,
+      "offset": 22075,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21953,
+      "offset": 22095,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 21976,
+      "offset": 22118,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 22487,
+      "offset": 22629,
       "length": 9,
       "value": "\"AlertID\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 22664,
+      "offset": 22806,
       "length": 7,
       "value": "\"ALERT\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 22798,
+      "offset": 22940,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Array",
-      "offset": 23458,
+      "offset": 23600,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24490,
+      "offset": 24632,
       "length": 65,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24511,
+      "offset": 24653,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24531,
+      "offset": 24673,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24554,
+      "offset": 24696,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 24693,
+      "offset": 24835,
       "length": 9,
       "value": "\"AlertID\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25139,
+      "offset": 25281,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25201,
+      "offset": 25343,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 26115,
+      "offset": 26257,
       "length": 5,
       "value": "\"TAG\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 27346,
+      "offset": 27488,
       "length": 13,
       "value": "\"CUSTOM_ICON\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 27898,
+      "offset": 28040,
       "length": 14,
       "value": "\"CustomIconId\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Array",
-      "offset": 28425,
+      "offset": 28567,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 31110,
+      "offset": 31252,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Array",
-      "offset": 32317,
+      "offset": 32459,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 32747,
+      "offset": 32889,
       "length": 25,
       "value": "\"Cannot find floor layer\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 32945,
+      "offset": 33087,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 33019,
+      "offset": 33161,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Array",
-      "offset": 33342,
+      "offset": 33484,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 34098,
+      "offset": 34240,
       "length": 50,
       "value": "\"Cannot get floorPolygons for floorId: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 34147,
+      "offset": 34289,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 34620,
+      "offset": 34762,
       "length": 60,
       "value": "\"Layer Issue: Unable to find floor layer with id \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 34679,
+      "offset": 34821,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35033,
+      "offset": 35175,
       "length": 172,
       "value": "\"Floor id = \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35055,
+      "offset": 35197,
       "length": 1,
       "value": "\". Default = \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35102,
+      "offset": 35244,
       "length": 1,
       "value": "\". \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35129,
+      "offset": 35271,
       "length": 6,
       "value": "\"Will\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35138,
+      "offset": 35280,
       "length": 7,
       "value": "\"Won't\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35147,
+      "offset": 35289,
       "length": 4,
       "value": "\" show floor. \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35201,
+      "offset": 35343,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 35204,
+      "offset": 35346,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35728,
+      "offset": 35870,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35753,
+      "offset": 35895,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35781,
+      "offset": 35923,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35808,
+      "offset": 35950,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35836,
+      "offset": 35978,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35728,
+      "offset": 35870,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35753,
+      "offset": 35895,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35781,
+      "offset": 35923,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35808,
+      "offset": 35950,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35836,
+      "offset": 35978,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35728,
+      "offset": 35870,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35753,
+      "offset": 35895,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35781,
+      "offset": 35923,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 35808,
+      "offset": 35950,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35836,
+      "offset": 35978,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 36663,
+      "offset": 36805,
       "length": 15,
       "value": "\"Map Drawing :\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 37038,
+      "offset": 37180,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 37047,
+      "offset": 37189,
       "length": 2,
       "value": "\" In cache. Image found with with \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 37086,
+      "offset": 37228,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 37133,
+      "offset": 37275,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 37246,
+      "offset": 37388,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 37255,
+      "offset": 37397,
       "length": 3,
       "value": "\" Not in cache. Downloading image \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 37294,
+      "offset": 37436,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 37552,
+      "offset": 37694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 37705,
+      "offset": 37847,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 37711,
+      "offset": 37853,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 37792,
+      "offset": 37934,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 38234,
+      "offset": 38376,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 38243,
+      "offset": 38385,
       "length": 5,
       "value": "\" Saved in Cache \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 38265,
+      "offset": 38407,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 38307,
+      "offset": 38449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 38447,
+      "offset": 38589,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 38578,
+      "offset": 38720,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 39012,
+      "offset": 39154,
       "length": 73,
       "value": "\"Marker Drawing: Updating \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 39058,
+      "offset": 39200,
       "length": 7,
       "value": "\" markers for \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 39084,
+      "offset": 39226,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "Array",
-      "offset": 39247,
+      "offset": 39389,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 39385,
+      "offset": 39527,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 39862,
+      "offset": 40004,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 42207,
+      "offset": 42349,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 42415,
+      "offset": 42557,
       "length": 5,
       "value": "false"
     },
@@ -36379,351 +36379,358 @@
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4897,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "Array",
-      "offset": 5306,
+      "offset": 5486,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 5532,
+      "offset": 5712,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 5552,
+      "offset": 5732,
       "length": 9,
       "value": "\"POLYGON\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5624,
+      "offset": 5804,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6495,
+      "offset": 6675,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7590,
+      "offset": 7770,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7827,
+      "offset": 8007,
       "length": 66,
       "value": "\"MapOverlayItem item.color is not valid - error - \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7892,
+      "offset": 8072,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 7989,
+      "offset": 8169,
       "length": 92,
       "value": "\"MapOverlayItem item.color is not valid - generalized-error - \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 8080,
+      "offset": 8260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8282,
+      "offset": 8462,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 8513,
+      "offset": 8693,
       "length": 70,
       "value": "\"MapOverlayItem item.lineColor is not valid - error - \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 8582,
+      "offset": 8762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 8679,
+      "offset": 8859,
       "length": 96,
       "value": "\"MapOverlayItem item.lineColor is not valid - generalized-error - \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 8774,
+      "offset": 8954,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8866,
+      "offset": 9046,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9383,
+      "offset": 9563,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9459,
+      "offset": 9639,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9927,
+      "offset": 10107,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9944,
+      "offset": 10124,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9969,
+      "offset": 10149,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9983,
+      "offset": 10163,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 10638,
+      "offset": 10818,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 11656,
+      "offset": 11836,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11826,
+      "offset": 12006,
       "length": 99,
       "value": "\"MapOverlayItem convertColorHexToNTColor failed as hexColor is not valid - error - \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11924,
+      "offset": 12104,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 11997,
+      "offset": 12177,
       "length": 115,
       "value": "\"MapOverlayItem convertColorHexToNTColor hexColor is not valid - generalized-error - \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 12111,
+      "offset": 12291,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12382,
+      "offset": 12562,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 12503,
+      "offset": 12683,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 12605,
+      "offset": 12785,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 12622,
+      "offset": 12802,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 12631,
+      "offset": 12811,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12686,
+      "offset": 12866,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12713,
+      "offset": 12893,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12743,
+      "offset": 12923,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13416,
+      "offset": 13596,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14154,
+      "offset": 14334,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14863,
+      "offset": 15043,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15417,
+      "offset": 15597,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15431,
+      "offset": 15611,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "StringLiteral",
-      "offset": 15445,
+      "offset": 15625,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16679,
+      "offset": 16859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18171,
+      "offset": 18351,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18218,
+      "offset": 18398,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18713,
+      "offset": 18893,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18939,
+      "offset": 19119,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18952,
+      "offset": 19132,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18992,
+      "offset": 19172,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19017,
+      "offset": 19197,
       "length": 1,
       "value": "2"
     },
@@ -38137,35 +38144,35 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5308,
+      "offset": 5328,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5348,
+      "offset": 5368,
       "length": 12,
       "value": "\"buildingId\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5308,
+      "offset": 5328,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5348,
+      "offset": 5368,
       "length": 12,
       "value": "\"buildingId\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "Array",
-      "offset": 5932,
+      "offset": 5971,
       "length": 2,
       "value": "[]"
     },
@@ -41021,497 +41028,504 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7907,
+      "offset": 8037,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 8225,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8706,
+      "offset": 9035,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8751,
+      "offset": 9084,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9107,
+      "offset": 9480,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9119,
+      "offset": 9492,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9126,
+      "offset": 9499,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10128,
+      "offset": 10501,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11820,
+      "offset": 12193,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11853,
+      "offset": 12226,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12829,
+      "offset": 13202,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13356,
+      "offset": 13729,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13527,
+      "offset": 13900,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14294,
+      "offset": 14667,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14464,
+      "offset": 14837,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14762,
+      "offset": 15135,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14959,
+      "offset": 15332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 15397,
+      "offset": 15770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 15430,
+      "offset": 15803,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 16809,
+      "offset": 17182,
       "length": 101,
       "value": "\"#Map. Now plotting on building \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 16854,
+      "offset": 17227,
       "length": 1,
       "value": "\". Routing Layer is visible: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 16909,
+      "offset": 17282,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17412,
+      "offset": 17785,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18069,
+      "offset": 18442,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18131,
+      "offset": 18504,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18333,
+      "offset": 18706,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18908,
+      "offset": 19281,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19805,
+      "offset": 20178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 20047,
+      "offset": 20420,
       "length": 30,
       "value": "\"#Map: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "StringLiteral",
-      "offset": 20069,
+      "offset": 20442,
       "length": 6,
       "value": "\" routes\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20195,
+      "offset": 20568,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 20476,
+      "offset": 20849,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20749,
+      "offset": 21122,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20795,
+      "offset": 21168,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20850,
+      "offset": 21223,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20901,
+      "offset": 21274,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 21094,
+      "offset": 21467,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21717,
+      "offset": 22090,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22072,
+      "offset": 22445,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22148,
+      "offset": 22521,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22231,
+      "offset": 22604,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23730,
+      "offset": 24103,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23859,
+      "offset": 24232,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24099,
+      "offset": 24472,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24228,
+      "offset": 24601,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 24456,
+      "offset": 24829,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25083,
+      "offset": 25456,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25123,
+      "offset": 25496,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25495,
+      "offset": 25868,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25529,
+      "offset": 25902,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25886,
+      "offset": 26259,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "Array",
-      "offset": 25989,
+      "offset": 26362,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26590,
+      "offset": 26963,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26997,
+      "offset": 27370,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27158,
+      "offset": 27531,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27184,
+      "offset": 27557,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27703,
+      "offset": 28076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27738,
+      "offset": 28111,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27847,
+      "offset": 28220,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 28668,
+      "offset": 29041,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28894,
+      "offset": 29267,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 29067,
+      "offset": 29440,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 29266,
+      "offset": 29639,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 29575,
+      "offset": 29948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 29926,
+      "offset": 30299,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30801,
+      "offset": 31174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "FloatLiteral",
-      "offset": 30894,
+      "offset": 31267,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 30908,
+      "offset": 31281,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30959,
+      "offset": 31332,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 31171,
+      "offset": 31544,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35926,
+      "offset": 36299,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Routing\/MNRouteMapManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 37777,
+      "offset": 38150,
       "length": 2,
       "value": "-1"
     },
@@ -43156,98 +43170,385 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44980,
+      "offset": 45002,
       "length": 8,
       "value": "\"entity\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 45145,
+      "kind": "StringLiteral",
+      "offset": 45024,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 45505,
-      "length": 4,
-      "value": "true"
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45584,
-      "length": 9,
-      "value": "\"routing\""
+      "offset": 45090,
+      "length": 7,
+      "value": "\"floor\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45679,
-      "length": 10,
-      "value": "\"property\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
-      "kind": "StringLiteral",
-      "offset": 45766,
-      "length": 14,
-      "value": "\"destinations\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
-      "kind": "StringLiteral",
-      "offset": 45809,
-      "length": 3,
-      "value": "\",\""
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
-      "kind": "Array",
-      "offset": 45871,
+      "offset": 45111,
       "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
-      "kind": "StringLiteral",
-      "offset": 45970,
-      "length": 3,
-      "value": "\":\""
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 46213,
+      "offset": 45205,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 46809,
+      "offset": 45234,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45284,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45333,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45391,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45406,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 46965,
+      "offset": 45566,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45636,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 45803,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 47055,
+      "offset": 45880,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 45986,
+      "length": 9,
+      "value": "\"routing\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 46237,
+      "length": 14,
+      "value": "\"destinations\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "Array",
+      "offset": 46461,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 46674,
+      "length": 3,
+      "value": "\"!\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 46763,
+      "length": 3,
+      "value": "\"!\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46906,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47150,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 47177,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47241,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47461,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47627,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 47654,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47709,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 47736,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47804,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47840,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 48028,
+      "length": 13,
+      "value": "\"start point\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48050,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48142,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48171,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48509,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 48536,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48599,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 48847,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49000,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49058,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49113,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49337,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49374,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 49692,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "StringLiteral",
+      "offset": 49852,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50005,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50118,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50342,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50379,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 50797,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 50889,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "FloatLiteral",
-      "offset": 48265,
+      "offset": 52099,
       "length": 3,
       "value": "0.6"
     },
