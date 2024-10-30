@@ -1360,6 +1360,16 @@
       },
       {
         "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -21337,6 +21347,51 @@
           },
           {
             "kind": "Function",
+            "name": "refreshAndPlotMapOverlays",
+            "printedName": "refreshAndPlotMapOverlays(propertyId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap0aB3ApiC014refreshAndPlotB8Overlays10propertyId10completionySi_ySbctF",
+            "mangledName": "$s10MapstedMap0aB3ApiC014refreshAndPlotB8Overlays10propertyId10completionySi_ySbctF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setMapPerspective",
             "printedName": "setMapPerspective(enable3D:)",
             "children": [
@@ -25565,357 +25620,399 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 848,
+      "offset": 895,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 886,
+      "offset": 933,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1237,
+      "offset": 1284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2258,
+      "offset": 2305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2291,
+      "offset": 2338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2325,
+      "offset": 2372,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2359,
+      "offset": 2406,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2775,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 5007,
+      "offset": 5344,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 5261,
+      "offset": 5598,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 5274,
+      "offset": 5611,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 5380,
+      "offset": 5717,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 6030,
+      "offset": 6367,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 6049,
+      "offset": 6386,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 7093,
+      "offset": 7430,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "FloatLiteral",
-      "offset": 7273,
+      "offset": 7610,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 8512,
+      "offset": 8849,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "FloatLiteral",
-      "offset": 9059,
+      "offset": 9396,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 9261,
+      "offset": 9598,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 9304,
+      "offset": 9641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 9567,
+      "offset": 9904,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 9610,
+      "offset": 9947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 9686,
+      "offset": 10023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 9720,
+      "offset": 10057,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "FloatLiteral",
-      "offset": 10295,
+      "offset": 10632,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 10497,
+      "offset": 10834,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 10540,
+      "offset": 10877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 10762,
+      "offset": 11099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 10805,
+      "offset": 11142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 10881,
+      "offset": 11218,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 10915,
+      "offset": 11252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "Array",
-      "offset": 11786,
+      "offset": 12123,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 12307,
+      "offset": 12644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 12442,
+      "offset": 12779,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 13280,
+      "offset": 13617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 13310,
+      "offset": 13647,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 14622,
+      "offset": 14959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 14707,
+      "offset": 15044,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 18216,
+      "offset": 18553,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 18456,
+      "offset": 18793,
       "length": 45,
       "value": "\"prepare downloading property: \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 18500,
+      "offset": 18837,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 18884,
+      "offset": 19221,
       "length": 36,
       "value": "\"downloaded property: \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 18919,
+      "offset": 19256,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 19068,
+      "offset": 19405,
       "length": 44,
       "value": "\"property already downloaded: \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 19111,
+      "offset": 19448,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 25290,
+      "offset": 25627,
       "length": 51,
       "value": "\"#Map: Will switch to segment \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 25340,
+      "offset": 25677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 33442,
+      "offset": 32290,
+      "length": 81,
+      "value": "\"Please enable useMapOverlays before trying to refresh and plot the map overlays\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "StringLiteral",
+      "offset": 32780,
+      "length": 80,
+      "value": "\"Refreshing and Plotting Map Overlays can be requested for the selectedProperty\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32936,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33650,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "StringLiteral",
+      "offset": 35550,
       "length": 14,
       "value": "\"IS_DARK_MODE\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 33577,
+      "offset": 35685,
       "length": 6,
       "value": "\"DARK\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "FloatLiteral",
-      "offset": 36560,
+      "offset": 38668,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 38233,
+      "offset": 40341,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "StringLiteral",
-      "offset": 39236,
+      "offset": 41344,
       "length": 56,
       "value": "\"MapstedMaySyncApi - PackageDelegate - onFailure called\""
     },
@@ -43121,429 +43218,436 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 44253,
+      "offset": 44708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 44388,
+      "offset": 44843,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44677,
+      "offset": 45132,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44716,
+      "offset": 45171,
       "length": 8,
       "value": "\"select\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44810,
+      "offset": 45265,
       "length": 10,
       "value": "\"property\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 44895,
+      "offset": 45350,
       "length": 10,
       "value": "\"building\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45002,
+      "offset": 45457,
       "length": 8,
       "value": "\"entity\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45024,
+      "offset": 45479,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45090,
+      "offset": 45545,
       "length": 7,
       "value": "\"floor\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45111,
+      "offset": 45566,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45205,
+      "offset": 45660,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45234,
+      "offset": 45689,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45284,
+      "offset": 45739,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45333,
+      "offset": 45788,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45391,
+      "offset": 45846,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45406,
+      "offset": 45861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 45566,
+      "offset": 46021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 45636,
+      "offset": 46091,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 45803,
+      "offset": 46258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 45880,
+      "offset": 46335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 45986,
+      "offset": 46441,
       "length": 9,
       "value": "\"routing\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 46237,
+      "offset": 46692,
       "length": 14,
       "value": "\"destinations\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "Array",
-      "offset": 46461,
+      "offset": 46916,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 46674,
+      "offset": 47129,
       "length": 3,
       "value": "\"!\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 46763,
+      "offset": 47218,
       "length": 3,
       "value": "\"!\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 46906,
+      "offset": 47361,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47150,
+      "offset": 47605,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 47177,
+      "offset": 47632,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47241,
+      "offset": 47696,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47400,
+      "offset": 47855,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47461,
+      "offset": 47916,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47627,
+      "offset": 48082,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 47654,
+      "offset": 48109,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47709,
+      "offset": 48164,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 47736,
+      "offset": 48191,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47804,
+      "offset": 48259,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 47840,
+      "offset": 48295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 48028,
+      "offset": 48483,
       "length": 13,
       "value": "\"start point\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 48050,
+      "offset": 48505,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 48142,
+      "offset": 48597,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 48171,
+      "offset": 48626,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 48509,
+      "offset": 48964,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 48536,
+      "offset": 48991,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 48599,
+      "offset": 49054,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 48847,
+      "offset": 49302,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 49000,
+      "offset": 49455,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 49058,
+      "offset": 49513,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 49113,
+      "offset": 49568,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 49337,
+      "offset": 49792,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 49374,
+      "offset": 49829,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 49692,
+      "offset": 50147,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "StringLiteral",
-      "offset": 49852,
+      "offset": 50307,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 50005,
+      "offset": 50460,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 50063,
+      "offset": 50518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 50118,
+      "offset": 50573,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 50342,
+      "offset": 50797,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 50379,
+      "offset": 50834,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 50639,
+      "offset": 51094,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 50797,
+      "offset": 51252,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 50889,
+      "offset": 51344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
       "kind": "FloatLiteral",
-      "offset": 52099,
+      "offset": 52554,
       "length": 3,
       "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 53304,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/map-ftpmdrtqtwqkmubtegjlsaxoxsif\/Build\/Intermediates.noindex\/map.build\/Release-iphoneos\/map.build\/DerivedSources\/GeneratedAssetSymbols.swift",

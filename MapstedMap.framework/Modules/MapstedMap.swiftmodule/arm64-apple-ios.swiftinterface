@@ -769,6 +769,7 @@ public enum UserPositionScenario : Swift.Int {
   public func selectedLocationMatchesCurrentPosition() -> Swift.Bool
   public func centerOnProperty(propertyId: Swift.Int) -> Swift.Bool
   public func centerOnBuilding(buildingId: Swift.Int) -> Swift.Bool
+  public func refreshAndPlotMapOverlays(propertyId: Swift.Int, completion: @escaping ((Swift.Bool) -> ()))
   @objc deinit
 }
 extension MapstedMap.MapstedMapApi {
