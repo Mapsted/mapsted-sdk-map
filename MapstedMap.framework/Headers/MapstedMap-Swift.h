@@ -353,6 +353,15 @@ SWIFT_CLASS("_TtC10MapstedMap19MNMapViewController")
 
 
 
+SWIFT_CLASS("_TtC10MapstedMap14MapOverlayItem")
+@interface MapOverlayItem : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
 SWIFT_CLASS("_TtC10MapstedMap20MapPackageDownloader")
 @interface MapPackageDownloader : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

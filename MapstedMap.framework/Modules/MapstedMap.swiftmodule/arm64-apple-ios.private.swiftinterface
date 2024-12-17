@@ -68,6 +68,16 @@ public protocol MapSelectionChangeObserver : AnyObject {
 @_hasMissingDesignatedInitializers public class EntityVectorElements {
   @objc deinit
 }
+public enum Orientation {
+  case faceCamera
+  case faceCameraGround
+  case ground
+  public static func == (a: MapstedMap.Orientation, b: MapstedMap.Orientation) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct CustomLogoDimension {
   public init(top: CoreFoundation.CGFloat, left: CoreFoundation.CGFloat, width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
 }
@@ -128,6 +138,18 @@ public struct CompassDimension {
     get
     set
   }
+  public var enableMapOverlaySelection: Swift.Bool {
+    get
+    set
+  }
+  public var enableAutomatedClickProcessing: Swift.Bool {
+    get
+    set
+  }
+  public var allowNonSearchableEntitySelecting: Swift.Bool {
+    get
+    set
+  }
   public var userPositionErrBoundaryStyle: MapstedMap.ErrBoundaryStyle {
     get
   }
@@ -147,7 +169,6 @@ public struct CompassDimension {
 }
 @_hasMissingDesignatedInitializers public class MapOverlaySettingsProcessor {
   public func processDynamicSettingsForElements(elements: [MapSDK.NTVectorElement], previousZoom: Swift.Float, newZoom: Swift.Float, showPolygonOverlays: Swift.Bool)
-  public func processDyamicSettingsForAnElement(element: MapSDK.NTVectorElement, startZoom: MapstedMap.Zoom, endZoom: MapstedMap.Zoom, currentZoom: Swift.Float, updateStyle: Swift.Bool, showPolygonOverlays: Swift.Bool)
   @objc deinit
 }
 extension MapstedMap.MapOverlayItem : MapstedCore.CMSSearchable {
@@ -270,13 +291,6 @@ extension CoreLocation.CLLocationCoordinate2D : MapstedMap.SimplifyValue {
   public func selectEntity(entity: MapstedCore.MNMapEntity?, post: Swift.Bool = false) -> Swift.Bool
   @objc deinit
 }
-public protocol MNMapListenerDelegate : AnyObject {
-  func onMapMoved()
-  func onMapStable()
-  func onMapIdle()
-  func onMapInteraction()
-  func outsideBuildingTapped(tapPos: MapstedCore.MNMercator, tapType: MapstedMap.MapstedMapApi.TapType)
-}
 public class MNEntityVectorElements {
   public var entityId: Swift.Int {
     get
@@ -313,11 +327,48 @@ public enum MapstedMapDelta {
     get
   }
 }
-public protocol MNMapVectorElementListenerDelegate : AnyObject {
-  func onPolygonTapped(polygon: MapstedCore.MNMapPolygon, tapType: MapstedMap.MapstedMapApi.TapType, tapPos: MapstedCore.MNMercator)
-  func onEntityTapped(entity: MapstedCore.MNMapEntity, tapType: MapstedMap.MapstedMapApi.TapType, tapPos: MapstedCore.MNMercator)
-  func onBalloonClicked(searchEntity: MapstedCore.MNSearchEntity)
-  func onMarkerTapped(markerName: Swift.String, markerType: Swift.String)
+public enum MapEvent : Swift.Int {
+  case MAP_MOVED
+  case MAP_IDLE
+  case MAP_STABLE
+  case MAP_INTERACTION
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol MapEventListener : AnyObject {
+  func onMapEvent(event: MapstedMap.MapEvent)
+}
+public protocol MapClickListener : AnyObject {
+  func onMapClicked(event: MapstedMap.MapClickEvent)
+}
+public enum ClickType : Swift.Int {
+  case SINGLE
+  case LONG
+  case DOUBLE
+  case DUAL
+  case DESELECT
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class MapClickEvent : Swift.Equatable {
+  public func getClickType() -> MapstedMap.ClickType
+  public func getClickLocation() -> MapstedCore.MNMercatorZone
+  public func getClickEntity() -> MapstedCore.MNMapEntity?
+  public func getClickOverlay() -> MapstedMap.MapOverlayItem?
+  public func getCustomMetaData() -> [Swift.String : Swift.String]
+  public func getMarkerType() -> Swift.String?
+  public func getMarkerName() -> Swift.String?
+  public static func == (lhs: MapstedMap.MapClickEvent, rhs: MapstedMap.MapClickEvent) -> Swift.Bool
+  public var description: Swift.String {
+    get
+  }
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MapstedMapMeta {
   public static let defaultWatermarkPlacement: (Swift.Float, Swift.Float)
@@ -385,12 +436,57 @@ public protocol MNMapVectorElementListenerDelegate : AnyObject {
   public static func getLayerIndex(mapCount: Swift.Int32, type: MapstedMap.MapstedMapMeta.LayerType) -> Swift.Int32
   @objc deinit
 }
-public class CustomIcon {
-  public init(icon: UIKit.UIImage, mercatorZone: MapstedCore.MNMercatorZone, preferredSize: Swift.Float? = 30)
-  public func getId() -> Swift.String
-  public func getSize() -> Swift.Float?
-  public func getMercatorZone() -> MapstedCore.MNMercatorZone?
-  public func getIcon() -> UIKit.UIImage?
+@_hasMissingDesignatedInitializers public class CustomIcon : Swift.Equatable {
+  public var icon: UIKit.UIImage?
+  public var fallbackIcon: UIKit.UIImage
+  public var preferredSize: Swift.Float
+  public var anchorPointX: Swift.Float
+  public var anchorPointY: Swift.Float
+  public var rotation: Swift.Float
+  public var flipRotationToFaceCamera: Swift.Bool
+  public var orientation: MapstedMap.Orientation
+  public var scaling: MapstedMap.Scaling
+  public var propertyId: Swift.Int {
+    get
+  }
+  public var buildingId: Swift.Int {
+    get
+  }
+  public var floorId: Swift.Int {
+    get
+  }
+  public var entityId: Swift.Int {
+    get
+  }
+  public var isSearchable: Swift.Bool {
+    get
+  }
+  public var location: MapstedCore.MNMercatorZone? {
+    get
+  }
+  public var isProperty: Swift.Bool {
+    get
+  }
+  public var Id: Swift.String {
+    get
+  }
+  public static func == (lhs: MapstedMap.CustomIcon, rhs: MapstedMap.CustomIcon) -> Swift.Bool
+  public class Builder {
+    public init()
+    public func build() -> MapstedMap.CustomIcon
+    public func setIcon(icon: UIKit.UIImage?) -> MapstedMap.CustomIcon.Builder
+    public func setFallbackIcon(fallbackIcon: UIKit.UIImage) -> MapstedMap.CustomIcon.Builder
+    public func setPreferredSize(_ size: Swift.Float) -> MapstedMap.CustomIcon.Builder
+    public func setAnchorPointX(anchorPointX: Swift.Float) -> MapstedMap.CustomIcon.Builder
+    public func setAnchorPointY(anchorPointY: Swift.Float) -> MapstedMap.CustomIcon.Builder
+    public func setRotation(rotation: Swift.Float) -> MapstedMap.CustomIcon.Builder
+    public func setFlipRotationToFaceCamera(flipRotationToFaceCamera: Swift.Bool) -> MapstedMap.CustomIcon.Builder
+    public func setOrientation(orientation: MapstedMap.Orientation) -> MapstedMap.CustomIcon.Builder
+    public func setScaling(scaling: MapstedMap.Scaling) -> MapstedMap.CustomIcon.Builder
+    public func setMercatorZone(mercatorZone: MapstedCore.MNMercatorZone?) -> MapstedMap.CustomIcon.Builder
+    public func setEntity(entity: MapstedCore.MNMapEntity?) -> MapstedMap.CustomIcon.Builder
+    @objc deinit
+  }
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class AngleCalc {
@@ -455,7 +551,12 @@ public class Coordinate : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-public class MapOverlayItem : Swift.Codable {
+@objc public class MapOverlayItem : ObjectiveC.NSObject, Swift.Codable {
+  public init(_id: Swift.String? = nil, syncId: Swift.String? = nil, cmsMapOverlayId: Swift.String? = nil, _propertyId: Swift.Int? = nil, _buildingId: Swift.Int? = nil, floorId: Swift.Int? = nil, color: Swift.String? = nil, lineColor: Swift.String? = nil, textColor: Swift.String? = nil, defaultBorderFillOpacity: Swift.Float? = nil, defaultFillOpacity: Swift.Float? = nil, defaultTextOpacity: Swift.Float? = nil, dynamicOverlaySettings: MapstedMap.DynamicOverlaySettings? = nil, name: [Swift.String : Swift.String]? = nil, shape: MapstedMap.Shape? = nil, toolTipText: [Swift.String : Swift.String]? = nil, index: Swift.Int? = nil, coreDataLocations: [MapstedCore.MNMercatorZone]? = nil)
+  public func getOverlayId() -> Swift.String?
+  public func getOverlayPropertyId() -> Swift.Int?
+  public func getOverlayBuildingId() -> Swift.Int?
+  public func getOverlayFloorId() -> Swift.Int?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -530,12 +631,6 @@ public class MapstedMapBounds {
   public func getZoomByMapBounds() -> Swift.Double
   @objc deinit
 }
-public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
-  func onTileEntityTapped(entity: MapstedCore.MNMapEntity, tapType: MapstedMap.MapstedMapApi.TapType, tapPos: MapstedCore.MNMercator)
-  func onTilePolygonTapped(polygon: MapstedCore.MNMapPolygon, tapType: MapstedMap.MapstedMapApi.TapType, tapPos: MapstedCore.MNMercator)
-  func onTileBalloonClicked(searchEntity: MapstedCore.MNSearchEntity)
-  func onTileMarkerTapped(markerName: Swift.String, markerType: Swift.String)
-}
 @objc @_Concurrency.MainActor(unsafe) open class MNMapViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var curOverlaysVisibility: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc dynamic public init()
@@ -567,12 +662,10 @@ public protocol MNMapVectorTileEventListenerDelegate : AnyObject {
   @objc deinit
 }
 extension MapstedMap.MNMapViewController {
-  @_Concurrency.MainActor(unsafe) public func addMapListenerDelegate(delegate: any MapstedMap.MNMapListenerDelegate)
-  @_Concurrency.MainActor(unsafe) public func removeMapListenerDelegate(delegate: any MapstedMap.MNMapListenerDelegate)
-  @_Concurrency.MainActor(unsafe) public func addMapVectorElementListenerDelegate(delegate: any MapstedMap.MNMapVectorElementListenerDelegate)
-  @_Concurrency.MainActor(unsafe) public func removeMapVectorElementListenerDelegate(delegate: any MapstedMap.MNMapVectorElementListenerDelegate)
-  @_Concurrency.MainActor(unsafe) public func addMapTileEventListenerDelegate(delegate: any MapstedMap.MNMapVectorTileEventListenerDelegate)
-  @_Concurrency.MainActor(unsafe) public func removeMapTileEventListenerDelegate(delegate: any MapstedMap.MNMapVectorTileEventListenerDelegate)
+  @_Concurrency.MainActor(unsafe) public func addMapEventListenerDelegate(delegate: any MapstedMap.MapEventListener)
+  @_Concurrency.MainActor(unsafe) public func removeMapEventListenerDelegate(delegate: any MapstedMap.MapEventListener)
+  @_Concurrency.MainActor(unsafe) public func addMapClickListernerDelegate(delegate: any MapstedMap.MapClickListener)
+  @_Concurrency.MainActor(unsafe) public func removeMapClickListenerDelegate(delegate: any MapstedMap.MapClickListener)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class MNMapView : MapSDK.NTMapView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init!(frame: CoreFoundation.CGRect)
@@ -628,6 +721,16 @@ public enum UserPositionScenario : Swift.Int {
     get
   }
 }
+public enum Scaling {
+  case worldSize
+  case screenSize
+  case constScreenSize
+  public static func == (a: MapstedMap.Scaling, b: MapstedMap.Scaling) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MapstedMapApi : ObjectiveC.NSObject {
   public enum TapType : Swift.Int {
     case eSingle
@@ -673,6 +776,7 @@ public enum UserPositionScenario : Swift.Int {
   public func setCopyRightLabelBottomMargin(bottom: CoreFoundation.CGFloat?)
   public func isCalibrationMode() -> Swift.Bool
   public func drawProperty(isSelected: Swift.Bool, propertyData: MapstedCore.MNPropertyData)
+  public func isBuildingVisible(buildingId: Swift.Int) -> Swift.Bool
   public func fetchMapOverlayData(propertyId: Swift.Int, buildingId: Swift.Int?, floorId: Swift.Int?) -> [MapstedMap.MapOverlayItem]
   public func getMapOverlayData() -> [MapstedMap.MapOverlayItem]
   public func updateIcons(propertyIds: [Swift.Int], buildingIds: [Swift.Int], mapZoom: Swift.Float, mapRotation: Swift.Float)
@@ -741,6 +845,7 @@ public enum UserPositionScenario : Swift.Int {
   public func isRoutingSuccessful() -> Swift.Bool
   public func curRoutingIdx() -> (seg: Swift.Int, floor: Swift.Int)
   public func switchRoute(routeIndex: Swift.Int)
+  public func getSelectedRoute() -> MapstedCore.MNRoute?
   public func switchSegmentForCurrentRoute(routeSegmentIndex: Swift.Int)
   public func startNavigation(fromPosition: MapstedCore.MNMercator?)
   public func stopNavigation(finalPosition: MapstedCore.MNMercator?)
@@ -770,6 +875,10 @@ public enum UserPositionScenario : Swift.Int {
   public func centerOnProperty(propertyId: Swift.Int) -> Swift.Bool
   public func centerOnBuilding(buildingId: Swift.Int) -> Swift.Bool
   public func refreshAndPlotMapOverlays(propertyId: Swift.Int, completion: @escaping ((Swift.Bool) -> ()))
+  public func addMapEventListenerDelegate(delegate: any MapstedMap.MapEventListener)
+  public func removeMapEventListenerDelegate(delegate: any MapstedMap.MapEventListener)
+  public func addMapClickListenerDelegate(delegate: any MapstedMap.MapClickListener)
+  public func removeMapClickListenerDelegate(delegate: any MapstedMap.MapClickListener)
   @objc deinit
 }
 extension MapstedMap.MapstedMapApi {
@@ -817,8 +926,16 @@ extension MapstedMap.MapstedMapApi : MapstedCore.PropertyCompletionListener {
 extension MapstedMap.PackageStatus : Swift.Equatable {}
 extension MapstedMap.PackageStatus : Swift.Hashable {}
 extension MapstedMap.PackageStatus : Swift.RawRepresentable {}
+extension MapstedMap.Orientation : Swift.Equatable {}
+extension MapstedMap.Orientation : Swift.Hashable {}
 extension MapstedMap.MapstedMapDelta : Swift.Equatable {}
 extension MapstedMap.MapstedMapDelta : Swift.Hashable {}
+extension MapstedMap.MapEvent : Swift.Equatable {}
+extension MapstedMap.MapEvent : Swift.Hashable {}
+extension MapstedMap.MapEvent : Swift.RawRepresentable {}
+extension MapstedMap.ClickType : Swift.Equatable {}
+extension MapstedMap.ClickType : Swift.Hashable {}
+extension MapstedMap.ClickType : Swift.RawRepresentable {}
 extension MapstedMap.MapstedMapMeta.MapPanType : Swift.Equatable {}
 extension MapstedMap.MapstedMapMeta.MapPanType : Swift.Hashable {}
 extension MapstedMap.MapstedMapMeta.MapPanType : Swift.RawRepresentable {}
@@ -844,6 +961,8 @@ extension MapstedMap.UserPositionColourScheme : Swift.RawRepresentable {}
 extension MapstedMap.UserPositionScenario : Swift.Equatable {}
 extension MapstedMap.UserPositionScenario : Swift.Hashable {}
 extension MapstedMap.UserPositionScenario : Swift.RawRepresentable {}
+extension MapstedMap.Scaling : Swift.Equatable {}
+extension MapstedMap.Scaling : Swift.Hashable {}
 extension MapstedMap.MapstedMapApi.TapType : Swift.Equatable {}
 extension MapstedMap.MapstedMapApi.TapType : Swift.Hashable {}
 extension MapstedMap.MapstedMapApi.TapType : Swift.RawRepresentable {}
