@@ -786,6 +786,7 @@ public enum Scaling {
   public func selectEntity(entity: any MapstedCore.ISearchable)
   public func deselectEntity()
   public func selectSearchEntity(entity: MapstedCore.MNMapEntity?, showPopup: Swift.Bool)
+  public func selectMapOverlayItemOnMap(mapOverlay: MapstedMap.MapOverlayItem)
   public func selectMapOverlayItem(item: MapstedMap.MapOverlayItem)
   public func switchFloor(buildingId: Swift.Int, floorId: Swift.Int)
   public func currentFloor(buildingId: Swift.Int) -> Swift.Int?
