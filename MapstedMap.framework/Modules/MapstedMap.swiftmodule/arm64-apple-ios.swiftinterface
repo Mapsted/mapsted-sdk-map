@@ -775,7 +775,7 @@ public enum Scaling {
   public func setCompassPosition(dimension: MapstedMap.CompassDimension?)
   public func setCopyRightLabelBottomMargin(bottom: CoreFoundation.CGFloat?)
   public func isCalibrationMode() -> Swift.Bool
-  public func drawProperty(isSelected: Swift.Bool, propertyData: MapstedCore.MNPropertyData)
+  public func drawProperty(isSelected: Swift.Bool, propertyData: MapstedCore.MNPropertyData, completion: (() -> ())? = nil)
   public func isBuildingVisible(buildingId: Swift.Int) -> Swift.Bool
   public func fetchMapOverlayData(propertyId: Swift.Int, buildingId: Swift.Int?, floorId: Swift.Int?) -> [MapstedMap.MapOverlayItem]
   public func getMapOverlayData() -> [MapstedMap.MapOverlayItem]
