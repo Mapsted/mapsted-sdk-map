@@ -60,6 +60,30 @@ extension MapstedCore.MNPosition {
     @objc get
   }
 }
+@_hasMissingDesignatedInitializers public class PlotEntityType {
+  public enum EntityType {
+    case Unknown
+    case Furniture
+    case Boundary
+    case Vegetation
+    public static func == (a: MapstedMap.PlotEntityType.EntityType, b: MapstedMap.PlotEntityType.EntityType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Visibility {
+    case auto
+    case show
+    case hide
+    public static func == (a: MapstedMap.PlotEntityType.Visibility, b: MapstedMap.PlotEntityType.Visibility) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc deinit
+}
 public protocol MapSelectionChangeObserver : AnyObject {
   func selectedPropertyChanged(toProperty propertyId: Swift.Int)
   func selectedBuildingChanged(toBuilding buildingId: Swift.Int)
@@ -158,6 +182,8 @@ public struct CompassDimension {
     set
   }
   public func getUserPositionColourScheme(scenario: MapstedMap.UserPositionScenario) -> MapstedMap.UserPositionColourScheme
+  public func getPlotEntityTypeVisibility(type: MapstedMap.PlotEntityType.EntityType) -> MapstedMap.PlotEntityType.Visibility
+  public func setPlotEntityTypeVisibility(type: MapstedMap.PlotEntityType.EntityType, visibility: MapstedMap.PlotEntityType.Visibility)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class FileManagerUtility {
@@ -326,6 +352,18 @@ public enum MapstedMapDelta {
   public var hashValue: Swift.Int {
     get
   }
+}
+@_hasMissingDesignatedInitializers final public class PropertyComplexityEvaluator {
+  public struct EvaluationResult {
+    public let complexityScore: Swift.Float
+    public let isTooComplex: Swift.Bool
+  }
+  public static func updateFromPropertyData(propertyId: Swift.Int, polygons: Swift.Int, entities: Swift.Int, buildingCount: Swift.Int)
+  public static func updateFromBuildingData(propertyId: Swift.Int, polygons: Swift.Int, entities: Swift.Int)
+  public static func evaluate(propertyId: Swift.Int) -> MapstedMap.PropertyComplexityEvaluator.EvaluationResult
+  public static func isPropertySimple(propertyId: Swift.Int) -> Swift.Bool
+  public static func clearPropertyData(propertyId: Swift.Int)
+  @objc deinit
 }
 public enum MapEvent : Swift.Int {
   case MAP_MOVED
@@ -928,6 +966,10 @@ extension MapstedMap.MapstedMapApi : MapstedCore.PropertyCompletionListener {
 extension MapstedMap.PackageStatus : Swift.Equatable {}
 extension MapstedMap.PackageStatus : Swift.Hashable {}
 extension MapstedMap.PackageStatus : Swift.RawRepresentable {}
+extension MapstedMap.PlotEntityType.EntityType : Swift.Equatable {}
+extension MapstedMap.PlotEntityType.EntityType : Swift.Hashable {}
+extension MapstedMap.PlotEntityType.Visibility : Swift.Equatable {}
+extension MapstedMap.PlotEntityType.Visibility : Swift.Hashable {}
 extension MapstedMap.Orientation : Swift.Equatable {}
 extension MapstedMap.Orientation : Swift.Hashable {}
 extension MapstedMap.MapstedMapDelta : Swift.Equatable {}

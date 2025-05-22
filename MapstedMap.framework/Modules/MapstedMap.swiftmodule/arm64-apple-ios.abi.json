@@ -1304,6 +1304,603 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedMap"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlotEntityType",
+        "printedName": "PlotEntityType",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "EntityType",
+            "printedName": "EntityType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "Unknown",
+                "printedName": "Unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapstedMap.PlotEntityType.EntityType.Type) -> MapstedMap.PlotEntityType.EntityType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EntityType",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType",
+                        "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EntityType",
+                            "printedName": "MapstedMap.PlotEntityType.EntityType",
+                            "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O7UnknownyA2EmF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O7UnknownyA2EmF",
+                "moduleName": "MapstedMap"
+              },
+              {
+                "kind": "Var",
+                "name": "Furniture",
+                "printedName": "Furniture",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapstedMap.PlotEntityType.EntityType.Type) -> MapstedMap.PlotEntityType.EntityType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EntityType",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType",
+                        "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EntityType",
+                            "printedName": "MapstedMap.PlotEntityType.EntityType",
+                            "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O9FurnitureyA2EmF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O9FurnitureyA2EmF",
+                "moduleName": "MapstedMap"
+              },
+              {
+                "kind": "Var",
+                "name": "Boundary",
+                "printedName": "Boundary",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapstedMap.PlotEntityType.EntityType.Type) -> MapstedMap.PlotEntityType.EntityType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EntityType",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType",
+                        "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EntityType",
+                            "printedName": "MapstedMap.PlotEntityType.EntityType",
+                            "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O8BoundaryyA2EmF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O8BoundaryyA2EmF",
+                "moduleName": "MapstedMap"
+              },
+              {
+                "kind": "Var",
+                "name": "Vegetation",
+                "printedName": "Vegetation",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapstedMap.PlotEntityType.EntityType.Type) -> MapstedMap.PlotEntityType.EntityType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EntityType",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType",
+                        "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MapstedMap.PlotEntityType.EntityType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EntityType",
+                            "printedName": "MapstedMap.PlotEntityType.EntityType",
+                            "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O10VegetationyA2EmF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O10VegetationyA2EmF",
+                "moduleName": "MapstedMap"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EntityType",
+                    "printedName": "MapstedMap.PlotEntityType.EntityType",
+                    "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EntityType",
+                    "printedName": "MapstedMap.PlotEntityType.EntityType",
+                    "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O2eeoiySbAE_AEtFZ",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O2eeoiySbAE_AEtFZ",
+                "moduleName": "MapstedMap",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O9hashValueSivp",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O9hashValueSivp",
+                "moduleName": "MapstedMap",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O9hashValueSivg",
+                    "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O9hashValueSivg",
+                    "moduleName": "MapstedMap",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O4hash4intoys6HasherVz_tF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O4hash4intoys6HasherVz_tF",
+                "moduleName": "MapstedMap",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O",
+            "mangledName": "$s10MapstedMap14PlotEntityTypeC0dE0O",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Visibility",
+            "printedName": "Visibility",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "auto",
+                "printedName": "auto",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapstedMap.PlotEntityType.Visibility.Type) -> MapstedMap.PlotEntityType.Visibility",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Visibility",
+                        "printedName": "MapstedMap.PlotEntityType.Visibility",
+                        "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MapstedMap.PlotEntityType.Visibility.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Visibility",
+                            "printedName": "MapstedMap.PlotEntityType.Visibility",
+                            "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO4autoyA2EmF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO4autoyA2EmF",
+                "moduleName": "MapstedMap"
+              },
+              {
+                "kind": "Var",
+                "name": "show",
+                "printedName": "show",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapstedMap.PlotEntityType.Visibility.Type) -> MapstedMap.PlotEntityType.Visibility",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Visibility",
+                        "printedName": "MapstedMap.PlotEntityType.Visibility",
+                        "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MapstedMap.PlotEntityType.Visibility.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Visibility",
+                            "printedName": "MapstedMap.PlotEntityType.Visibility",
+                            "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO4showyA2EmF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO4showyA2EmF",
+                "moduleName": "MapstedMap"
+              },
+              {
+                "kind": "Var",
+                "name": "hide",
+                "printedName": "hide",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapstedMap.PlotEntityType.Visibility.Type) -> MapstedMap.PlotEntityType.Visibility",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Visibility",
+                        "printedName": "MapstedMap.PlotEntityType.Visibility",
+                        "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MapstedMap.PlotEntityType.Visibility.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Visibility",
+                            "printedName": "MapstedMap.PlotEntityType.Visibility",
+                            "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO4hideyA2EmF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO4hideyA2EmF",
+                "moduleName": "MapstedMap"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Visibility",
+                    "printedName": "MapstedMap.PlotEntityType.Visibility",
+                    "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Visibility",
+                    "printedName": "MapstedMap.PlotEntityType.Visibility",
+                    "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO2eeoiySbAE_AEtFZ",
+                "moduleName": "MapstedMap",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO9hashValueSivp",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO9hashValueSivp",
+                "moduleName": "MapstedMap",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO9hashValueSivg",
+                    "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO9hashValueSivg",
+                    "moduleName": "MapstedMap",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO4hash4intoys6HasherVz_tF",
+                "moduleName": "MapstedMap",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO",
+            "mangledName": "$s10MapstedMap14PlotEntityTypeC10VisibilityO",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MapstedMap14PlotEntityTypeC",
+        "mangledName": "$s10MapstedMap14PlotEntityTypeC",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4244,6 +4841,65 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPlotEntityTypeVisibility",
+            "printedName": "getPlotEntityTypeVisibility(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "MapstedMap.PlotEntityType.Visibility",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EntityType",
+                "printedName": "MapstedMap.PlotEntityType.EntityType",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap0aB16CustomParametersC27getPlotEntityTypeVisibility4typeAA0fgH0C0I0OAG0gH0O_tF",
+            "mangledName": "$s10MapstedMap0aB16CustomParametersC27getPlotEntityTypeVisibility4typeAA0fgH0C0I0OAG0gH0O_tF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlotEntityTypeVisibility",
+            "printedName": "setPlotEntityTypeVisibility(type:visibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EntityType",
+                "printedName": "MapstedMap.PlotEntityType.EntityType",
+                "usr": "s:10MapstedMap14PlotEntityTypeC0dE0O"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "MapstedMap.PlotEntityType.Visibility",
+                "usr": "s:10MapstedMap14PlotEntityTypeC10VisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap0aB16CustomParametersC27setPlotEntityTypeVisibility4type10visibilityyAA0fgH0C0gH0O_AH0I0OtF",
+            "mangledName": "$s10MapstedMap0aB16CustomParametersC27setPlotEntityTypeVisibility4type10visibilityyAA0fgH0C0gH0O_AH0I0OtF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -7082,6 +7738,341 @@
         "printedName": "MapSDK",
         "declKind": "Import",
         "moduleName": "MapstedMap"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PropertyComplexityEvaluator",
+        "printedName": "PropertyComplexityEvaluator",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "EvaluationResult",
+            "printedName": "EvaluationResult",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "complexityScore",
+                "printedName": "complexityScore",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV15complexityScoreSfvp",
+                "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV15complexityScoreSfvp",
+                "moduleName": "MapstedMap",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV15complexityScoreSfvg",
+                    "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV15complexityScoreSfvg",
+                    "moduleName": "MapstedMap",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "isTooComplex",
+                "printedName": "isTooComplex",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV12isTooComplexSbvp",
+                "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV12isTooComplexSbvp",
+                "moduleName": "MapstedMap",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV12isTooComplexSbvg",
+                    "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV12isTooComplexSbvg",
+                    "moduleName": "MapstedMap",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV",
+            "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateFromPropertyData",
+            "printedName": "updateFromPropertyData(propertyId:polygons:entities:buildingCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC010updateFromC4Data10propertyId8polygons8entities13buildingCountySi_S3itFZ",
+            "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC010updateFromC4Data10propertyId8polygons8entities13buildingCountySi_S3itFZ",
+            "moduleName": "MapstedMap",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateFromBuildingData",
+            "printedName": "updateFromBuildingData(propertyId:polygons:entities:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC22updateFromBuildingData10propertyId8polygons8entitiesySi_S2itFZ",
+            "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC22updateFromBuildingData10propertyId8polygons8entitiesySi_S2itFZ",
+            "moduleName": "MapstedMap",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(propertyId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EvaluationResult",
+                "printedName": "MapstedMap.PropertyComplexityEvaluator.EvaluationResult",
+                "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC16EvaluationResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC8evaluate10propertyIdAC16EvaluationResultVSi_tFZ",
+            "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC8evaluate10propertyIdAC16EvaluationResultVSi_tFZ",
+            "moduleName": "MapstedMap",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPropertySimple",
+            "printedName": "isPropertySimple(propertyId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC02isC6Simple10propertyIdSbSi_tFZ",
+            "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC02isC6Simple10propertyIdSbSi_tFZ",
+            "moduleName": "MapstedMap",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearPropertyData",
+            "printedName": "clearPropertyData(propertyId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC05clearC4Data10propertyIdySi_tFZ",
+            "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC05clearC4Data10propertyIdySi_tFZ",
+            "moduleName": "MapstedMap",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MapstedMap27PropertyComplexityEvaluatorC",
+        "mangledName": "$s10MapstedMap27PropertyComplexityEvaluatorC",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -13151,7 +14142,8 @@
             "mangledName": "$s10MapstedMap12MNBasicLayerC25removeAllEntityHighlightsyyF",
             "moduleName": "MapstedMap",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -27778,6 +28770,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MapstedMapCustomParameters.swift",
+      "kind": "Dictionary",
+      "offset": 6761,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNTestingModuleMapManager.swift",
       "kind": "IntegerLiteral",
       "offset": 379,
@@ -27911,6 +28910,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNMapBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 276,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNMapBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNMapBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 4,
+      "value": "1024"
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/FilerRepo\/FilerRepository.swift",
       "kind": "Array",
       "offset": 417,
@@ -27958,6 +28978,41 @@
       "offset": 942,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/PropertyComplexityEvaluator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 419,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/PropertyComplexityEvaluator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 473,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/PropertyComplexityEvaluator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 531,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/PropertyComplexityEvaluator.swift",
+      "kind": "FloatLiteral",
+      "offset": 595,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/PropertyComplexityEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
+      "length": 35,
+      "value": "\"PropertyComplexityEvaluator.queue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MapstedMapEventManager.swift",
@@ -28816,674 +29871,632 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 7859,
+      "offset": 7951,
       "length": 8,
       "value": "\"< 30 m\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 7895,
+      "offset": 7987,
       "length": 11,
       "value": "\"30 - 50 m\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 7935,
+      "offset": 8027,
       "length": 12,
       "value": "\"50 - 100 m\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 7971,
+      "offset": 8063,
       "length": 9,
       "value": "\"+ 100 m\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "Array",
-      "offset": 8040,
+      "offset": 8132,
       "length": 19,
       "value": "[30.5, 50.5, 100.5]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8568,
+      "offset": 8660,
       "length": 7,
       "value": "\"Store\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8598,
+      "offset": 8690,
       "length": 8,
       "value": "\"Stairs\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8630,
+      "offset": 8722,
       "length": 9,
       "value": "\"Service\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8670,
+      "offset": 8762,
       "length": 16,
       "value": "\"Transportation\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8711,
+      "offset": 8803,
       "length": 10,
       "value": "\"Washroom\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8750,
+      "offset": 8842,
       "length": 14,
       "value": "\"PremiumStore\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8787,
+      "offset": 8879,
       "length": 8,
       "value": "\"Office\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8829,
+      "offset": 8921,
       "length": 20,
       "value": "\"Inaccessible Space\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8873,
+      "offset": 8965,
       "length": 9,
       "value": "\"Hallway\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8903,
+      "offset": 8995,
       "length": 6,
       "value": "\"Food\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8939,
+      "offset": 9031,
       "length": 16,
       "value": "\"Floor Boundary\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 8981,
+      "offset": 9073,
       "length": 11,
       "value": "\"Escalator\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9017,
+      "offset": 9109,
       "length": 10,
       "value": "\"Elevator\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9056,
+      "offset": 9148,
       "length": 15,
       "value": "\"Entrance\/Exit\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9095,
+      "offset": 9187,
       "length": 9,
       "value": "\"Outside\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9133,
+      "offset": 9225,
       "length": 15,
       "value": "\"floor opening\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9169,
+      "offset": 9261,
       "length": 6,
       "value": "\"Ramp\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9201,
+      "offset": 9293,
       "length": 11,
       "value": "\"SubRegion\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9279,
+      "offset": 9371,
       "length": 10,
       "value": "\"Stroller\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9311,
+      "offset": 9403,
       "length": 11,
       "value": "\"Telephone\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9342,
+      "offset": 9434,
       "length": 5,
       "value": "\"ATM\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9368,
+      "offset": 9460,
       "length": 13,
       "value": "\"Information\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9412,
+      "offset": 9504,
       "length": 17,
       "value": "\"Vending Machine\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9461,
+      "offset": 9553,
       "length": 18,
       "value": "\"Changing Station\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 9509,
+      "offset": 9601,
       "length": 15,
       "value": "\"Defibrillator\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 9599,
+      "offset": 9691,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 9623,
+      "offset": 9715,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 9650,
+      "offset": 9742,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 9676,
+      "offset": 9768,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11513,
+      "offset": 11605,
       "length": 4,
       "value": "0xF8"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11522,
+      "offset": 11614,
       "length": 4,
       "value": "0xF1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11531,
+      "offset": 11623,
       "length": 4,
       "value": "0xDF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11540,
+      "offset": 11632,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11581,
+      "offset": 11673,
       "length": 4,
       "value": "0xCF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11590,
+      "offset": 11682,
       "length": 4,
       "value": "0xCD"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11599,
+      "offset": 11691,
       "length": 4,
       "value": "0xC8"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11608,
+      "offset": 11700,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11648,
+      "offset": 11740,
       "length": 4,
       "value": "0xCF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11657,
+      "offset": 11749,
       "length": 4,
       "value": "0xB0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11666,
+      "offset": 11758,
       "length": 4,
       "value": "0xDA"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11675,
+      "offset": 11767,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11710,
+      "offset": 11802,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11719,
+      "offset": 11811,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11728,
+      "offset": 11820,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11737,
+      "offset": 11829,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11772,
+      "offset": 11864,
       "length": 4,
       "value": "0xFA"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11781,
+      "offset": 11873,
       "length": 4,
       "value": "0xF9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11790,
+      "offset": 11882,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11799,
+      "offset": 11891,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11870,
+      "offset": 11962,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11879,
+      "offset": 11971,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11888,
+      "offset": 11980,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11897,
+      "offset": 11989,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11940,
+      "offset": 12032,
       "length": 4,
       "value": "0xBE"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11949,
+      "offset": 12041,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11958,
+      "offset": 12050,
       "length": 4,
       "value": "0xD8"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11967,
+      "offset": 12059,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12007,
+      "offset": 12099,
       "length": 4,
       "value": "0xE2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12016,
+      "offset": 12108,
       "length": 4,
       "value": "0xE2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12025,
+      "offset": 12117,
       "length": 4,
       "value": "0xDE"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12034,
+      "offset": 12126,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12069,
+      "offset": 12161,
       "length": 4,
       "value": "0xAD"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12078,
+      "offset": 12170,
       "length": 4,
       "value": "0xDF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12087,
+      "offset": 12179,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12096,
+      "offset": 12188,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12146,
+      "offset": 12238,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12155,
+      "offset": 12247,
       "length": 4,
       "value": "0xB6"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12164,
+      "offset": 12256,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12173,
+      "offset": 12265,
       "length": 4,
       "value": "0x8C"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12218,
+      "offset": 12310,
       "length": 4,
       "value": "0xA1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12227,
+      "offset": 12319,
       "length": 4,
       "value": "0xD9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12236,
+      "offset": 12328,
       "length": 4,
       "value": "0xF1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12245,
+      "offset": 12337,
       "length": 4,
       "value": "0x66"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12295,
+      "offset": 12387,
       "length": 4,
       "value": "0xE6"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12304,
+      "offset": 12396,
       "length": 4,
       "value": "0xE1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12313,
+      "offset": 12405,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12322,
+      "offset": 12414,
       "length": 4,
       "value": "0x8C"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12367,
+      "offset": 12459,
       "length": 4,
       "value": "0xE6"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12376,
+      "offset": 12468,
       "length": 4,
       "value": "0xE1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12385,
+      "offset": 12477,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12394,
+      "offset": 12486,
       "length": 4,
       "value": "0x66"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12441,
+      "offset": 12533,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12450,
+      "offset": 12542,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12459,
+      "offset": 12551,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12468,
+      "offset": 12560,
       "length": 4,
       "value": "0x60"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12510,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12519,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12528,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12537,
-      "length": 4,
-      "value": "0x30"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12584,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12593,
-      "length": 4,
-      "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
@@ -29497,1412 +30510,1454 @@
       "kind": "IntegerLiteral",
       "offset": 12611,
       "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12620,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12629,
+      "length": 4,
+      "value": "0x30"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12676,
+      "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12653,
+      "offset": 12685,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12694,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12703,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12745,
       "length": 4,
       "value": "0x4A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12662,
+      "offset": 12754,
       "length": 4,
       "value": "0x4A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12671,
+      "offset": 12763,
       "length": 4,
       "value": "0x4A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12680,
+      "offset": 12772,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12720,
+      "offset": 12812,
       "length": 4,
       "value": "0x3A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12729,
+      "offset": 12821,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12738,
+      "offset": 12830,
       "length": 4,
       "value": "0xF0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12747,
+      "offset": 12839,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12791,
+      "offset": 12883,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12800,
+      "offset": 12892,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12809,
+      "offset": 12901,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12818,
+      "offset": 12910,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12869,
+      "offset": 12961,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12878,
+      "offset": 12970,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12887,
+      "offset": 12979,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12896,
+      "offset": 12988,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12945,
+      "offset": 13037,
       "length": 4,
       "value": "0x3A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12954,
+      "offset": 13046,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12963,
+      "offset": 13055,
       "length": 4,
       "value": "0xF0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12972,
+      "offset": 13064,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13022,
+      "offset": 13114,
       "length": 4,
       "value": "0x3A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13031,
+      "offset": 13123,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13040,
+      "offset": 13132,
       "length": 4,
       "value": "0xF0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13049,
+      "offset": 13141,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13149,
+      "offset": 13241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13155,
+      "offset": 13247,
       "length": 3,
       "value": "153"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13163,
+      "offset": 13255,
       "length": 2,
       "value": "76"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13170,
+      "offset": 13262,
       "length": 3,
       "value": "175"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13222,
+      "offset": 13314,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13230,
+      "offset": 13322,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13238,
+      "offset": 13330,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13246,
+      "offset": 13338,
       "length": 3,
       "value": "175"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13290,
+      "offset": 13382,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13299,
+      "offset": 13391,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13308,
+      "offset": 13400,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13317,
+      "offset": 13409,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13422,
+      "offset": 13514,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13431,
+      "offset": 13523,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13440,
+      "offset": 13532,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13449,
+      "offset": 13541,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13485,
+      "offset": 13577,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13494,
+      "offset": 13586,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13503,
+      "offset": 13595,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13512,
+      "offset": 13604,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13548,
+      "offset": 13640,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13557,
+      "offset": 13649,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13566,
+      "offset": 13658,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13575,
+      "offset": 13667,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13611,
+      "offset": 13703,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13620,
+      "offset": 13712,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13629,
+      "offset": 13721,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13638,
+      "offset": 13730,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13674,
+      "offset": 13766,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13683,
+      "offset": 13775,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13692,
+      "offset": 13784,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13701,
+      "offset": 13793,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13745,
+      "offset": 13837,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13754,
+      "offset": 13846,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13763,
+      "offset": 13855,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13772,
+      "offset": 13864,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13816,
+      "offset": 13908,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13825,
+      "offset": 13917,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13834,
+      "offset": 13926,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13843,
+      "offset": 13935,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13879,
+      "offset": 13971,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13888,
+      "offset": 13980,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13897,
+      "offset": 13989,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13906,
+      "offset": 13998,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13942,
+      "offset": 14034,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13951,
+      "offset": 14043,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13960,
+      "offset": 14052,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13969,
+      "offset": 14061,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14005,
+      "offset": 14097,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14014,
+      "offset": 14106,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14023,
+      "offset": 14115,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14032,
+      "offset": 14124,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14068,
+      "offset": 14160,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14077,
+      "offset": 14169,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14086,
+      "offset": 14178,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14095,
+      "offset": 14187,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14127,
+      "offset": 14219,
       "length": 4,
       "value": "0x6D"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14136,
+      "offset": 14228,
       "length": 4,
       "value": "0x6E"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14145,
+      "offset": 14237,
       "length": 4,
       "value": "0x71"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14154,
+      "offset": 14246,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14206,
+      "offset": 14298,
       "length": 4,
       "value": "0x6D"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14215,
+      "offset": 14307,
       "length": 4,
       "value": "0x6E"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14224,
+      "offset": 14316,
       "length": 4,
       "value": "0x71"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14233,
+      "offset": 14325,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14285,
+      "offset": 14377,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14294,
+      "offset": 14386,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14303,
+      "offset": 14395,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14312,
+      "offset": 14404,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14361,
+      "offset": 14453,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14370,
+      "offset": 14462,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14379,
+      "offset": 14471,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14388,
+      "offset": 14480,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14436,
+      "offset": 14528,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14445,
+      "offset": 14537,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14454,
+      "offset": 14546,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14463,
+      "offset": 14555,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14494,
+      "offset": 14586,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14503,
+      "offset": 14595,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14512,
+      "offset": 14604,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14521,
+      "offset": 14613,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14552,
+      "offset": 14644,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14561,
+      "offset": 14653,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14570,
+      "offset": 14662,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14579,
+      "offset": 14671,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14610,
+      "offset": 14702,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14619,
+      "offset": 14711,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14628,
+      "offset": 14720,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14637,
+      "offset": 14729,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14668,
+      "offset": 14760,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14677,
+      "offset": 14769,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14686,
+      "offset": 14778,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14695,
+      "offset": 14787,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14726,
+      "offset": 14818,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14735,
+      "offset": 14827,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14744,
+      "offset": 14836,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14753,
+      "offset": 14845,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14784,
+      "offset": 14876,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14793,
+      "offset": 14885,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14802,
+      "offset": 14894,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14811,
+      "offset": 14903,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14842,
+      "offset": 14934,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14851,
+      "offset": 14943,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14860,
+      "offset": 14952,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14869,
+      "offset": 14961,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14900,
+      "offset": 14992,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14909,
+      "offset": 15001,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14918,
+      "offset": 15010,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14927,
+      "offset": 15019,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14958,
+      "offset": 15050,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14967,
+      "offset": 15059,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14976,
+      "offset": 15068,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14985,
+      "offset": 15077,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15016,
+      "offset": 15108,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15025,
+      "offset": 15117,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15034,
+      "offset": 15126,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15043,
+      "offset": 15135,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15074,
+      "offset": 15166,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15083,
+      "offset": 15175,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15092,
+      "offset": 15184,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15101,
+      "offset": 15193,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15132,
+      "offset": 15224,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15141,
+      "offset": 15233,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15150,
+      "offset": 15242,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15159,
+      "offset": 15251,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15190,
+      "offset": 15282,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15199,
+      "offset": 15291,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15208,
+      "offset": 15300,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15217,
+      "offset": 15309,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15248,
+      "offset": 15340,
       "length": 4,
       "value": "0x6F"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15257,
+      "offset": 15349,
       "length": 4,
       "value": "0xB0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15266,
+      "offset": 15358,
       "length": 4,
       "value": "0x49"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15275,
+      "offset": 15367,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15306,
+      "offset": 15398,
       "length": 4,
       "value": "0xFB"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15315,
+      "offset": 15407,
       "length": 4,
       "value": "0x5D"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15324,
+      "offset": 15416,
       "length": 4,
       "value": "0xE3"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15333,
+      "offset": 15425,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15364,
+      "offset": 15456,
       "length": 4,
       "value": "0x28"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15373,
+      "offset": 15465,
       "length": 4,
       "value": "0xD1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15382,
+      "offset": 15474,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15391,
+      "offset": 15483,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15422,
+      "offset": 15514,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15431,
+      "offset": 15523,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15440,
+      "offset": 15532,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15449,
+      "offset": 15541,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15480,
+      "offset": 15572,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15489,
+      "offset": 15581,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15498,
+      "offset": 15590,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15507,
+      "offset": 15599,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15538,
+      "offset": 15630,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15547,
+      "offset": 15639,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15556,
+      "offset": 15648,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15565,
+      "offset": 15657,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15632,
+      "offset": 15724,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15641,
+      "offset": 15733,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15650,
+      "offset": 15742,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15659,
+      "offset": 15751,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15690,
+      "offset": 15782,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15699,
+      "offset": 15791,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15708,
+      "offset": 15800,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15717,
+      "offset": 15809,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 15814,
+      "offset": 15906,
       "length": 16,
       "value": "\"ic_map_compass\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 15890,
+      "offset": 15982,
       "length": 20,
       "value": "\"ic_map_my_location\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 15971,
+      "offset": 16063,
       "length": 20,
       "value": "\"ic_map_destination\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16048,
+      "offset": 16140,
       "length": 5,
       "value": "\"pin\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16100,
+      "offset": 16192,
       "length": 6,
       "value": "\"tag1\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16191,
+      "offset": 16283,
       "length": 7,
       "value": "\"alert\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16256,
+      "offset": 16348,
       "length": 23,
       "value": "\"ic_user_location_blue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16327,
+      "offset": 16419,
       "length": 21,
       "value": "\"ic_marker_user_blue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16403,
+      "offset": 16495,
       "length": 29,
       "value": "\"ic_marker_user_blue_heading\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16499,
+      "offset": 16591,
       "length": 30,
       "value": "\"icUserMarkerBlackWithHeading\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16580,
+      "offset": 16672,
       "length": 23,
       "value": "\"ic_marker_circle_blue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16667,
+      "offset": 16759,
       "length": 27,
       "value": "\"icUserMarkerAccuracyBrown\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16756,
+      "offset": 16848,
       "length": 15,
       "value": "\"ic_red_circle\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16839,
+      "offset": 16931,
       "length": 30,
       "value": "\"ic_redmarker_without_heading\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16934,
+      "offset": 17026,
       "length": 27,
       "value": "\"ic_redmarker_with_heading\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 17024,
+      "offset": 17116,
       "length": 12,
       "value": "\"ENTITY_IdX\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 17066,
+      "offset": 17158,
       "length": 13,
       "value": "\"BUILDING_Id\""
     },
@@ -30944,35 +31999,35 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 39756,
+      "offset": 39765,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 39781,
+      "offset": 39790,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 39809,
+      "offset": 39818,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 39836,
+      "offset": 39845,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 39864,
+      "offset": 39873,
       "length": 1,
       "value": "1"
     },
@@ -31077,140 +32132,112 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18297,
+      "offset": 18349,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18344,
+      "offset": 18396,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "Array",
-      "offset": 663,
+      "offset": 639,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1413,
+      "offset": 1389,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "StringLiteral",
-      "offset": 1523,
-      "length": 8,
-      "value": "\"indoor\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1635,
-      "length": 8,
-      "value": "\"labels\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1692,
-      "length": 7,
-      "value": "\"class\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1744,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1797,
-      "length": 10,
-      "value": "\"rotation\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 1547,
       "length": 20,
       "value": "\"selected_entity_id\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "Array",
-      "offset": 3656,
+      "offset": 3089,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "Dictionary",
-      "offset": 3824,
+      "offset": 3257,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3860,
+      "offset": 3293,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "StringLiteral",
-      "offset": 4245,
+      "offset": 3678,
       "length": 63,
       "value": "\"Map Of Vector Elements has \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "StringLiteral",
-      "offset": 4301,
+      "offset": 3734,
       "length": 5,
       "value": "\" items\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "Dictionary",
-      "offset": 4188,
+      "offset": 3621,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9828,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9862,
+      "offset": 3851,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9901,
+      "offset": 6452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9947,
+      "offset": 6477,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6507,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6544,
       "length": 4,
       "value": "true"
     },
