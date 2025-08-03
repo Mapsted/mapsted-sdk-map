@@ -402,6 +402,7 @@ public enum ClickType : Swift.Int {
   public func getCustomMetaData() -> [Swift.String : Swift.String]
   public func getMarkerType() -> Swift.String?
   public func getMarkerName() -> Swift.String?
+  public func getIsInaccessible() -> Swift.Bool
   public static func == (lhs: MapstedMap.MapClickEvent, rhs: MapstedMap.MapClickEvent) -> Swift.Bool
   public var description: Swift.String {
     get
@@ -846,9 +847,11 @@ public enum Scaling {
   public func setTagImage(tagPin: UIKit.UIImage)
   public func updateUserMarker(position: MapstedCore.MNPosition)
   public func plotLocationMarker(completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public func plotDroppedPinMarker(position: MapstedCore.MNPosition)
   public func showLocationMarker()
   public func hideLocationMarker()
   public func clearLocationMarker()
+  public func clearDropPinMarker()
   public func setUserMarkerVisibility(_ visible: Swift.Bool)
   public func plotTemporaryTag(tag: MapstedCore.MNPosition)
   public func clearTemporaryTag()
