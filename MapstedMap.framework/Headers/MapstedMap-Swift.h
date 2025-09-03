@@ -389,12 +389,12 @@ SWIFT_CLASS("_TtC10MapstedMap13MapstedMapApi")
 
 
 
-
 @interface MapstedMapApi (SWIFT_EXTENSION(MapstedMap)) <PositionAnimationListener, PositionChangeListener, PositionVisibilityListener>
 - (void)onPositionChangeWithPosition:(MNPosition * _Nonnull)position;
 - (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
 - (void)setPositionVisibilityWithVisible:(BOOL)visible;
 @end
+
 
 
 

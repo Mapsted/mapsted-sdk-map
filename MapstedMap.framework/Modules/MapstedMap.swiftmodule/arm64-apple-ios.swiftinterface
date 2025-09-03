@@ -89,6 +89,15 @@ public protocol MapSelectionChangeObserver : AnyObject {
   func selectedBuildingChanged(toBuilding buildingId: Swift.Int)
   func selectedFloorChanged(toBuilding buildingId: Swift.Int, toFloor floorId: Swift.Int)
 }
+extension MapstedMap.MapRoutingManager : MapstedCore.NavigationCallback {
+  public func onNavigationInitSuccess(state: MapstedCore.MNNavigationState)
+  public func onNavigationInitFailure(error: MapstedCore.MNNavigationError)
+  public func onRouteSegmentReached(currentSegment: MapstedCore.MNRoutePathSegment, visitedSegments: [MapstedCore.MNRoutePathSegment], upcomingSegments: [MapstedCore.MNRoutePathSegment])
+  public func onUserProgressAlongRoute(state: MapstedCore.MNNavigationState)
+  public func onRouteInstruction(currentInstruction: MapstedCore.MNRoutePointInstruction, nextInstruction: MapstedCore.MNRoutePointInstruction, afterNextInstruction: MapstedCore.MNRoutePointInstruction)
+  public func onRouteRecalculation(state: MapstedCore.MNNavigationState, newRoute: MapstedCore.MNRoute, routePathType: MapstedCore.MNRoutePathType)
+  public func onDestinationReached(destination: MapstedCore.MapstedWaypoint)
+}
 @_hasMissingDesignatedInitializers public class EntityVectorElements {
   @objc deinit
 }
@@ -618,6 +627,14 @@ public class Coordinate : Swift.Codable {
     case routingRequestFailedInvalidDestination
     case routingRequestFailedDueToAlertOnRoute
     case routingRequestFailedDueToUnknownError
+    case routingRequestFailedDueToNoRoutingPermissions
+    case routingRequestFailedDueToImpossibleRoute
+    case routingRequestFailedDueToBuildingDataUnavailable
+    case routingRequestFailedDueToPropertyDataUnavailable
+    case routingRequestFailedDueToDestinationNoNode
+    case routingRequestFailedDueToStartNoNode
+    case routingRequestFailedDueToInvalidRequest
+    case routingRequestFailedDueToImpossibleRouteViaTransitionsOptions
     case routingEstimateUpdate
     case routingInstruction
     case routingRecalculation
@@ -770,6 +787,13 @@ public enum Scaling {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class MapRoutingManager {
+  @objc deinit
+}
+extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
+  @objc dynamic public func onSuccess(routeResponse: MapstedCore.MNRouteResponse)
+  @objc dynamic public func onError(routeResponse: MapstedCore.MNRouteResponse)
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MapstedMapApi : ObjectiveC.NSObject {
   public enum TapType : Swift.Int {
     case eSingle
@@ -866,18 +890,14 @@ public enum Scaling {
   public func allTargetsAdded() -> Swift.Bool
   public func switchToFloorForCalibration(floorId: Swift.Int)
   public func setCalibrationFloorChangeCallback(callback: @escaping ((Swift.Int, Swift.Int) -> Swift.Void))
-  public func handleRouteResponse(routeResponse: MapstedCore.MNRouteResponse)
-  public func handleRouteError(errorCode: Swift.Int, errorMessage: Swift.String, alertIds: [Swift.String])
-  public func handleUserProgressOnRoute(routeUserProgress: MapstedCore.MNRouteUserProgress)
-  public func handleRouteSegmentReached(currentRouteSegment: MapstedCore.MNRouteSegment, visitedRouteSegments: [MapstedCore.MNRouteSegment], upcomingRouteSegments: [MapstedCore.MNRouteSegment])
   public func clearRoute()
   public func displayRouteForFloor(floorId: Swift.Int)
   public func routeStartAndDestinationNames() -> (Swift.String?, Swift.String?)
   public func routeStartAndDestinationNamesForRoute(routeIndex: Swift.Int) -> (Swift.String?, Swift.String?)
   public func floorId(segmentIndex: Swift.Int) -> Swift.Int
   public func buildingId(segmentIndex: Swift.Int) -> Swift.Int
-  public func routingInstructions(routeIndex: Swift.Int) -> [[MapstedCore.MNRouteNode]]
-  public func routingInstructions() -> [MapstedCore.MNRouteNode]
+  public func routingInstructions(routeIndex: Swift.Int) -> [[MapstedCore.MNRoutePointInstruction]]
+  public func routingInstructions() -> [MapstedCore.MNRoutePointInstruction]
   public func routeCount() -> Swift.Int
   public func routeBuildingIds() -> Swift.Set<Swift.Int>
   public func simulateRoute()
@@ -889,21 +909,22 @@ public enum Scaling {
   public func curRoutingIdx() -> (seg: Swift.Int, floor: Swift.Int)
   public func switchRoute(routeIndex: Swift.Int)
   public func getSelectedRoute() -> MapstedCore.MNRoute?
+  public func getSelectedRoutePath() -> MapstedCore.MNRoutePath?
   public func switchSegmentForCurrentRoute(routeSegmentIndex: Swift.Int)
   public func startNavigation(fromPosition: MapstedCore.MNMercator?)
   public func stopNavigation(finalPosition: MapstedCore.MNMercator?)
-  public func routeDistanceTimeEstimate() -> MapstedCore.MNRouteDistanceTime?
-  public func routeDetourDistanceTime() -> MapstedCore.MNRouteDistanceTime?
-  public func routeDistanceTimeEstimate(routeIndex: Swift.Int) -> MapstedCore.MNRouteDistanceTime?
-  public func routeSegmentDistanceTimeEstimate(segIndex: Swift.Int) -> MapstedCore.MNRouteDistanceTime?
-  public func totalRouteDistanceTimeEstimate() -> MapstedCore.MNRouteDistanceTime?
-  public func totalRouteDetourDistanceTime() -> MapstedCore.MNRouteDistanceTime?
-  public func routeDistanceTimeToDestination(nodeId: Swift.Int) -> MapstedCore.MNRouteDistanceTime
+  public func routeDistanceTimeEstimate() -> MapstedCore.MNDistanceTime?
+  public func routeDetourDistanceTime() -> MapstedCore.MNDistanceTime?
+  public func routeDistanceTimeEstimate(routeIndex: Swift.Int) -> MapstedCore.MNDistanceTime?
+  public func routeSegmentDistanceTimeEstimate(segIndex: Swift.Int) -> MapstedCore.MNDistanceTime?
+  public func totalRouteDistanceTimeEstimate() -> MapstedCore.MNDistanceTime?
+  public func totalRouteDetourDistanceTime() -> MapstedCore.MNDistanceTime?
+  public func routeDistanceTimeToDestination() -> MapstedCore.MNDistanceTime?
   public func floorIdsForRoute(routeIndex: Swift.Int) -> [Swift.Int]
-  public func curNavigationInstruction() -> MapstedCore.MNRouteNode?
-  public func nextNavigationInstruction() -> MapstedCore.MNRouteNode?
-  public func nxtNavigationInstruction(currentInstruction: MapstedCore.MNRouteNode) -> MapstedCore.MNRouteNode?
-  public func transitionTypeAtEnd(routeIndex: Swift.Int, floorIndex: Swift.Int) -> MapstedCore.RouteTransitionType?
+  public func curNavigationInstruction() -> MapstedCore.MNRoutePointInstruction?
+  public func nextNavigationInstruction() -> MapstedCore.MNRoutePointInstruction?
+  public func nxtNavigationInstruction(currentInstruction: MapstedCore.MNRoutePointInstruction) -> MapstedCore.MNRoutePointInstruction?
+  public func transitionTypeAtEnd(routeIndex: Swift.Int, floorIndex: Swift.Int) -> MapstedCore.MNInstructionType?
   public func setMapPanType(type: MapstedMap.MapstedMapMeta.MapPanType)
   public func tiltMap(angle: Swift.Float, duration: Swift.Float)
   public func mapView() -> MapstedMap.MNMapView?
