@@ -29760,14 +29760,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MapstedMapEventManager.swift",
       "kind": "Array",
-      "offset": 24286,
+      "offset": 24003,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Views\/Map\/MapstedMapEventManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24533,
+      "offset": 24250,
       "length": 3,
       "value": "600"
     },
