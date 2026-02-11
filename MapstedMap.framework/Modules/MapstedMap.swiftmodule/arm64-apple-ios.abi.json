@@ -29179,28 +29179,28 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16659,
+      "offset": 16650,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16693,
+      "offset": 16684,
       "length": 3,
       "value": "9.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16753,
+      "offset": 16744,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 16794,
+      "offset": 16785,
       "length": 4,
       "value": "true"
     },
@@ -29263,7 +29263,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNPropertyLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20574,
+      "offset": 20366,
       "length": 1,
       "value": "0"
     },
@@ -32686,35 +32686,35 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 40782,
+      "offset": 40474,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 40807,
+      "offset": 40499,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 40835,
+      "offset": 40527,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "FloatLiteral",
-      "offset": 40862,
+      "offset": 40554,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBuildingLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 40890,
+      "offset": 40582,
       "length": 1,
       "value": "1"
     },
@@ -32791,14 +32791,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/MapDraw\/MNMapStyleUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 11053,
+      "offset": 12166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/MapDraw\/MNMapStyleUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 11435,
+      "offset": 12548,
       "length": 5,
       "value": "false"
     },
@@ -32819,14 +32819,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18349,
+      "offset": 19511,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18396,
+      "offset": 19558,
       "length": 3,
       "value": "180"
     },
@@ -32909,36 +32909,43 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
+      "kind": "StringLiteral",
+      "offset": 3719,
+      "length": 25,
+      "value": "\"com.mapsted.styleUpdate\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6019,
+      "offset": 6692,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6203,
+      "offset": 6876,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6228,
+      "offset": 6901,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6258,
+      "offset": 6931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNBasicLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6295,
+      "offset": 6968,
       "length": 4,
       "value": "true"
     },
