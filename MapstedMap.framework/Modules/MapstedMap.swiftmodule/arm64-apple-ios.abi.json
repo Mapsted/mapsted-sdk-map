@@ -49,6 +49,146 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MemoryUtility",
+        "printedName": "MemoryUtility",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MemoryUtility",
+                "printedName": "MapstedMap.MemoryUtility",
+                "usr": "s:10MapstedMap13MemoryUtilityC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MapstedMap13MemoryUtilityCACycfc",
+            "mangledName": "$s10MapstedMap13MemoryUtilityCACycfc",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getTotalRAMForDevice",
+            "printedName": "getTotalRAMForDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap13MemoryUtilityC20getTotalRAMForDevices6UInt64VyF",
+            "mangledName": "$s10MapstedMap13MemoryUtilityC20getTotalRAMForDevices6UInt64VyF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDetailedMemoryUsage",
+            "printedName": "getDetailedMemoryUsage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap13MemoryUtilityC011getDetailedC5Usages6UInt64VyF",
+            "mangledName": "$s10MapstedMap13MemoryUtilityC011getDetailedC5Usages6UInt64VyF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRAMUsageAndLimit",
+            "printedName": "fetchRAMUsageAndLimit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(currentRAMUsage: Swift.Double, usageLimit: Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap13MemoryUtilityC21fetchRAMUsageAndLimitSd07currentF0_Sd05usageH0tyF",
+            "mangledName": "$s10MapstedMap13MemoryUtilityC21fetchRAMUsageAndLimitSd07currentF0_Sd05usageH0tyF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MapstedMap13MemoryUtilityC",
+        "mangledName": "$s10MapstedMap13MemoryUtilityC",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "MapstedCore",
         "printedName": "MapstedCore",
@@ -2099,6 +2239,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MapstedMap"
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedMap",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -24109,6 +24259,119 @@
           },
           {
             "kind": "Function",
+            "name": "downloadAndDrawPropertyIfNeeded",
+            "printedName": "downloadAndDrawPropertyIfNeeded(propertyId:statusCallback:downloadProgress:onFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.Bool, Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.Bool, Swift.Bool)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.Float) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.Float)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MapstedMap0aB3ApiC31downloadAndDrawPropertyIfNeeded10propertyId14statusCallback0D8Progress9onFailureySi_ySi_S2btcySi_SftcySictF",
+            "mangledName": "$s10MapstedMap0aB3ApiC31downloadAndDrawPropertyIfNeeded10propertyId14statusCallback0D8Progress9onFailureySi_ySi_S2btcySi_SftcySictF",
+            "moduleName": "MapstedMap",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isBuildingVisible",
             "printedName": "isBuildingVisible(buildingId:)",
             "children": [
@@ -29179,28 +29442,28 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16650,
+      "offset": 16881,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16684,
+      "offset": 16915,
       "length": 3,
       "value": "9.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16744,
+      "offset": 16975,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 16785,
+      "offset": 17016,
       "length": 4,
       "value": "true"
     },
@@ -29284,35 +29547,70 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 895,
+      "offset": 946,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 933,
+      "offset": 984,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1284,
+      "offset": 1335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2006,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2059,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2105,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2217,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
+      "kind": "Array",
+      "offset": 2275,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 6448,
+      "offset": 22085,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Api\/MapstedMapSyncApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 6467,
+      "offset": 22104,
       "length": 5,
       "value": "false"
     },
@@ -30782,1862 +31080,1862 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11605,
+      "offset": 11644,
       "length": 4,
       "value": "0xF8"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11614,
+      "offset": 11653,
       "length": 4,
       "value": "0xF1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11623,
+      "offset": 11662,
       "length": 4,
       "value": "0xDF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11632,
+      "offset": 11671,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11673,
+      "offset": 11712,
       "length": 4,
       "value": "0xCF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11682,
+      "offset": 11721,
       "length": 4,
       "value": "0xCD"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11691,
+      "offset": 11730,
       "length": 4,
       "value": "0xC8"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11700,
+      "offset": 11739,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11740,
+      "offset": 11779,
       "length": 4,
       "value": "0xCF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11749,
+      "offset": 11788,
       "length": 4,
       "value": "0xB0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11758,
+      "offset": 11797,
       "length": 4,
       "value": "0xDA"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11767,
+      "offset": 11806,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11802,
+      "offset": 11841,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11811,
+      "offset": 11850,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11820,
+      "offset": 11859,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11829,
+      "offset": 11868,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11864,
+      "offset": 11903,
       "length": 4,
       "value": "0xFA"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11873,
+      "offset": 11912,
       "length": 4,
       "value": "0xF9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11882,
+      "offset": 11921,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11891,
+      "offset": 11930,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11962,
+      "offset": 12001,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11971,
+      "offset": 12010,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11980,
+      "offset": 12019,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 11989,
+      "offset": 12028,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12032,
+      "offset": 12071,
       "length": 4,
       "value": "0xBE"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12041,
+      "offset": 12080,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12050,
+      "offset": 12089,
       "length": 4,
       "value": "0xD8"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12059,
+      "offset": 12098,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12099,
+      "offset": 12138,
       "length": 4,
       "value": "0xE2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12108,
+      "offset": 12147,
       "length": 4,
       "value": "0xE2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12117,
+      "offset": 12156,
       "length": 4,
       "value": "0xDE"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12126,
+      "offset": 12165,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12161,
+      "offset": 12200,
       "length": 4,
       "value": "0xAD"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12170,
+      "offset": 12209,
       "length": 4,
       "value": "0xDF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12179,
+      "offset": 12218,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12188,
+      "offset": 12227,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12238,
+      "offset": 12277,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12247,
+      "offset": 12286,
       "length": 4,
       "value": "0xB6"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12256,
+      "offset": 12295,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12265,
+      "offset": 12304,
       "length": 4,
       "value": "0x8C"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12310,
+      "offset": 12349,
       "length": 4,
       "value": "0xA1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12319,
+      "offset": 12358,
       "length": 4,
       "value": "0xD9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12328,
+      "offset": 12367,
       "length": 4,
       "value": "0xF1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12337,
+      "offset": 12376,
       "length": 4,
       "value": "0x66"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12387,
+      "offset": 12426,
       "length": 4,
       "value": "0xE6"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12396,
+      "offset": 12435,
       "length": 4,
       "value": "0xE1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12405,
+      "offset": 12444,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12414,
+      "offset": 12453,
       "length": 4,
       "value": "0x8C"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12459,
+      "offset": 12498,
       "length": 4,
       "value": "0xE6"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12468,
+      "offset": 12507,
       "length": 4,
       "value": "0xE1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12477,
+      "offset": 12516,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12486,
+      "offset": 12525,
       "length": 4,
       "value": "0x66"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12533,
+      "offset": 12572,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12542,
+      "offset": 12581,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12551,
+      "offset": 12590,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12560,
+      "offset": 12599,
       "length": 4,
       "value": "0x60"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12602,
+      "offset": 12641,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12611,
+      "offset": 12650,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12620,
+      "offset": 12659,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12629,
+      "offset": 12668,
       "length": 4,
       "value": "0x30"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12676,
+      "offset": 12715,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12685,
+      "offset": 12724,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12694,
+      "offset": 12733,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12703,
+      "offset": 12742,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12745,
+      "offset": 12784,
       "length": 4,
       "value": "0x4A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12754,
+      "offset": 12793,
       "length": 4,
       "value": "0x4A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12763,
+      "offset": 12802,
       "length": 4,
       "value": "0x4A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12772,
+      "offset": 12811,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12812,
+      "offset": 12851,
       "length": 4,
       "value": "0x3A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12821,
+      "offset": 12860,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12830,
+      "offset": 12869,
       "length": 4,
       "value": "0xF0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12839,
+      "offset": 12878,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12883,
+      "offset": 12922,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12892,
+      "offset": 12931,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12901,
+      "offset": 12940,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12910,
+      "offset": 12949,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12961,
+      "offset": 13000,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12970,
+      "offset": 13009,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12979,
+      "offset": 13018,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 12988,
+      "offset": 13027,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13037,
+      "offset": 13076,
       "length": 4,
       "value": "0x3A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13046,
+      "offset": 13085,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13055,
+      "offset": 13094,
       "length": 4,
       "value": "0xF0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13064,
+      "offset": 13103,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13114,
+      "offset": 13153,
       "length": 4,
       "value": "0x3A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13123,
+      "offset": 13162,
       "length": 4,
       "value": "0xC5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13132,
+      "offset": 13171,
       "length": 4,
       "value": "0xF0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13141,
+      "offset": 13180,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13241,
+      "offset": 13280,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13247,
+      "offset": 13286,
       "length": 3,
       "value": "153"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13255,
+      "offset": 13294,
       "length": 2,
       "value": "76"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13262,
+      "offset": 13301,
       "length": 3,
       "value": "175"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13314,
+      "offset": 13353,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13322,
+      "offset": 13361,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13330,
+      "offset": 13369,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13338,
+      "offset": 13377,
       "length": 3,
       "value": "175"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13382,
+      "offset": 13421,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13391,
+      "offset": 13430,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13400,
+      "offset": 13439,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13409,
+      "offset": 13448,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13514,
+      "offset": 13553,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13523,
+      "offset": 13562,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13532,
+      "offset": 13571,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13541,
+      "offset": 13580,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13577,
+      "offset": 13616,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13586,
+      "offset": 13625,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13595,
+      "offset": 13634,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13604,
+      "offset": 13643,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13640,
+      "offset": 13679,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13649,
+      "offset": 13688,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13658,
+      "offset": 13697,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13667,
+      "offset": 13706,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13703,
+      "offset": 13742,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13712,
+      "offset": 13751,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13721,
+      "offset": 13760,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13730,
+      "offset": 13769,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13766,
+      "offset": 13805,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13775,
+      "offset": 13814,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13784,
+      "offset": 13823,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13793,
+      "offset": 13832,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13837,
+      "offset": 13876,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13846,
+      "offset": 13885,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13855,
+      "offset": 13894,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13864,
+      "offset": 13903,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13908,
+      "offset": 13947,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13917,
+      "offset": 13956,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13926,
+      "offset": 13965,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13935,
+      "offset": 13974,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13971,
+      "offset": 14010,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13980,
+      "offset": 14019,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13989,
+      "offset": 14028,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 13998,
+      "offset": 14037,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14034,
+      "offset": 14073,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14043,
+      "offset": 14082,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14052,
+      "offset": 14091,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14061,
+      "offset": 14100,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14097,
+      "offset": 14136,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14106,
+      "offset": 14145,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14115,
+      "offset": 14154,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14124,
+      "offset": 14163,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14160,
+      "offset": 14199,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14169,
+      "offset": 14208,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14178,
+      "offset": 14217,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14187,
+      "offset": 14226,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14219,
+      "offset": 14258,
       "length": 4,
       "value": "0x6D"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14228,
+      "offset": 14267,
       "length": 4,
       "value": "0x6E"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14237,
+      "offset": 14276,
       "length": 4,
       "value": "0x71"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14246,
+      "offset": 14285,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14298,
+      "offset": 14337,
       "length": 4,
       "value": "0x6D"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14307,
+      "offset": 14346,
       "length": 4,
       "value": "0x6E"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14316,
+      "offset": 14355,
       "length": 4,
       "value": "0x71"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14325,
+      "offset": 14364,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14377,
+      "offset": 14416,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14386,
+      "offset": 14425,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14395,
+      "offset": 14434,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14404,
+      "offset": 14443,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14453,
+      "offset": 14492,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14462,
+      "offset": 14501,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14471,
+      "offset": 14510,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14480,
+      "offset": 14519,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14528,
+      "offset": 14567,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14537,
+      "offset": 14576,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14546,
+      "offset": 14585,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14555,
+      "offset": 14594,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14586,
+      "offset": 14625,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14595,
+      "offset": 14634,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14604,
+      "offset": 14643,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14613,
+      "offset": 14652,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14644,
+      "offset": 14683,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14653,
+      "offset": 14692,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14662,
+      "offset": 14701,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14671,
+      "offset": 14710,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14702,
+      "offset": 14741,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14711,
+      "offset": 14750,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14720,
+      "offset": 14759,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14729,
+      "offset": 14768,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14760,
+      "offset": 14799,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14769,
+      "offset": 14808,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14778,
+      "offset": 14817,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14787,
+      "offset": 14826,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14818,
+      "offset": 14857,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14827,
+      "offset": 14866,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14836,
+      "offset": 14875,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14845,
+      "offset": 14884,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14876,
+      "offset": 14915,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14885,
+      "offset": 14924,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14894,
+      "offset": 14933,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14903,
+      "offset": 14942,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14934,
+      "offset": 14973,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14943,
+      "offset": 14982,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14952,
+      "offset": 14991,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14961,
+      "offset": 15000,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 14992,
+      "offset": 15031,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15001,
+      "offset": 15040,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15010,
+      "offset": 15049,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15019,
+      "offset": 15058,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15050,
+      "offset": 15089,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15059,
+      "offset": 15098,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15068,
+      "offset": 15107,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15077,
+      "offset": 15116,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15108,
+      "offset": 15147,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15117,
+      "offset": 15156,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15126,
+      "offset": 15165,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15135,
+      "offset": 15174,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15166,
+      "offset": 15205,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15175,
+      "offset": 15214,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15184,
+      "offset": 15223,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15193,
+      "offset": 15232,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15224,
+      "offset": 15263,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15233,
+      "offset": 15272,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15242,
+      "offset": 15281,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15251,
+      "offset": 15290,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15282,
+      "offset": 15321,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15291,
+      "offset": 15330,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15300,
+      "offset": 15339,
       "length": 4,
       "value": "0x2A"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15309,
+      "offset": 15348,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15340,
+      "offset": 15379,
       "length": 4,
       "value": "0x6F"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15349,
+      "offset": 15388,
       "length": 4,
       "value": "0xB0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15358,
+      "offset": 15397,
       "length": 4,
       "value": "0x49"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15367,
+      "offset": 15406,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15398,
+      "offset": 15437,
       "length": 4,
       "value": "0xFB"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15407,
+      "offset": 15446,
       "length": 4,
       "value": "0x5D"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15416,
+      "offset": 15455,
       "length": 4,
       "value": "0xE3"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15425,
+      "offset": 15464,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15456,
+      "offset": 15495,
       "length": 4,
       "value": "0x28"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15465,
+      "offset": 15504,
       "length": 4,
       "value": "0xD1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15474,
+      "offset": 15513,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15483,
+      "offset": 15522,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15514,
+      "offset": 15553,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15523,
+      "offset": 15562,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15532,
+      "offset": 15571,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15541,
+      "offset": 15580,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15572,
+      "offset": 15611,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15581,
+      "offset": 15620,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15590,
+      "offset": 15629,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15599,
+      "offset": 15638,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15630,
+      "offset": 15669,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15639,
+      "offset": 15678,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15648,
+      "offset": 15687,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15657,
+      "offset": 15696,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15724,
+      "offset": 15763,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15733,
+      "offset": 15772,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15742,
+      "offset": 15781,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15751,
+      "offset": 15790,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15782,
+      "offset": 15821,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15791,
+      "offset": 15830,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15800,
+      "offset": 15839,
       "length": 4,
       "value": "0xC9"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "IntegerLiteral",
-      "offset": 15809,
+      "offset": 15848,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 15906,
+      "offset": 15945,
       "length": 16,
       "value": "\"ic_map_compass\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 15982,
+      "offset": 16021,
       "length": 20,
       "value": "\"ic_map_my_location\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16063,
+      "offset": 16102,
       "length": 20,
       "value": "\"ic_map_destination\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16140,
+      "offset": 16179,
       "length": 5,
       "value": "\"pin\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16192,
+      "offset": 16231,
       "length": 6,
       "value": "\"tag1\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16283,
+      "offset": 16322,
       "length": 7,
       "value": "\"alert\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16348,
+      "offset": 16387,
       "length": 23,
       "value": "\"ic_user_location_blue\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16422,
+      "offset": 16461,
       "length": 16,
       "value": "\"ic_dropped_pin\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16486,
+      "offset": 16525,
       "length": 21,
       "value": "\"ic_marker_user_blue\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16562,
+      "offset": 16601,
       "length": 29,
       "value": "\"ic_marker_user_blue_heading\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16658,
+      "offset": 16697,
       "length": 30,
       "value": "\"icUserMarkerBlackWithHeading\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16739,
+      "offset": 16778,
       "length": 23,
       "value": "\"ic_marker_circle_blue\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16826,
+      "offset": 16865,
       "length": 27,
       "value": "\"icUserMarkerAccuracyBrown\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16915,
+      "offset": 16954,
       "length": 15,
       "value": "\"ic_red_circle\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 16998,
+      "offset": 17037,
       "length": 30,
       "value": "\"ic_redmarker_without_heading\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 17093,
+      "offset": 17132,
       "length": 27,
       "value": "\"ic_redmarker_with_heading\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 17183,
+      "offset": 17222,
       "length": 12,
       "value": "\"ENTITY_IdX\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/WorkSpace_Dev\/ios-sdk\/ios-sdk-map-core\/map\/Utility\/Meta\/MapstedMapMeta.swift",
       "kind": "StringLiteral",
-      "offset": 17225,
+      "offset": 17264,
       "length": 13,
       "value": "\"BUILDING_Id\""
     },

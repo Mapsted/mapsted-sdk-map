@@ -17,6 +17,13 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public class MemoryUtility {
+  public init()
+  public func getTotalRAMForDevice() -> Swift.UInt64
+  public func getDetailedMemoryUsage() -> Swift.UInt64
+  public func fetchRAMUsageAndLimit() -> (currentRAMUsage: Swift.Double, usageLimit: Swift.Double)
+  @objc deinit
+}
 public protocol CameraAutoFollowChangeObserver : AnyObject {
   func cameraAutoFollowValueChanged(to enabled: Swift.Bool)
 }
@@ -839,6 +846,7 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public func setCopyRightLabelBottomMargin(bottom: CoreFoundation.CGFloat?)
   public func isCalibrationMode() -> Swift.Bool
   public func drawProperty(isSelected: Swift.Bool, propertyData: MapstedCore.MNPropertyData, completion: (() -> ())? = nil)
+  public func downloadAndDrawPropertyIfNeeded(propertyId: Swift.Int, statusCallback: @escaping ((_ propertyId: Swift.Int, _ isDownloaded: Swift.Bool, _ isPlotted: Swift.Bool) -> ()), downloadProgress: @escaping ((_ propertyId: Swift.Int, _ percentage: Swift.Float) -> ()), onFailure: @escaping ((_ propertyId: Swift.Int) -> ()))
   public func isBuildingVisible(buildingId: Swift.Int) -> Swift.Bool
   public func fetchMapOverlayData(propertyId: Swift.Int, buildingId: Swift.Int?, floorId: Swift.Int?) -> [MapstedMap.MapOverlayItem]
   public func getMapOverlayData() -> [MapstedMap.MapOverlayItem]
