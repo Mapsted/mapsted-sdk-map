@@ -846,7 +846,7 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public func setCopyRightLabelBottomMargin(bottom: CoreFoundation.CGFloat?)
   public func isCalibrationMode() -> Swift.Bool
   public func drawProperty(isSelected: Swift.Bool, propertyData: MapstedCore.MNPropertyData, completion: (() -> ())? = nil)
-  public func downloadAndDrawPropertyIfNeeded(propertyId: Swift.Int, statusCallback: @escaping ((_ propertyId: Swift.Int, _ isDownloaded: Swift.Bool, _ isPlotted: Swift.Bool) -> ()), downloadProgress: @escaping ((_ propertyId: Swift.Int, _ percentage: Swift.Float) -> ()), onFailure: @escaping ((_ propertyId: Swift.Int) -> ()))
+  public func downloadAndDrawPropertyIfNeeded(propertyId: Swift.Int, statusCallback: @escaping ((_ propertyId: Swift.Int, _ isDownloaded: Swift.Bool, _ isPlotted: Swift.Bool) -> ()), downloadProgress: @escaping ((_ propertyId: Swift.Int, _ percentage: Swift.Float) -> ()), onSuccessBuilding: @escaping ((_ propertyId: Swift.Int, _ buildingId: Swift.Int) -> ()), onFailure: @escaping ((_ propertyId: Swift.Int) -> ()))
   public func isBuildingVisible(buildingId: Swift.Int) -> Swift.Bool
   public func fetchMapOverlayData(propertyId: Swift.Int, buildingId: Swift.Int?, floorId: Swift.Int?) -> [MapstedMap.MapOverlayItem]
   public func getMapOverlayData() -> [MapstedMap.MapOverlayItem]
