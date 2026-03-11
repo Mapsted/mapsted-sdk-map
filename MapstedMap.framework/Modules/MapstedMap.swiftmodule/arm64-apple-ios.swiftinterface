@@ -733,6 +733,7 @@ extension MapstedMap.MNMapViewController {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class MNMapView : MapSDK.NTMapView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init(coder aDecoder: Foundation.NSCoder!)
+  @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var accessibilityValue: Swift.String? {
     @objc get
     @objc set
@@ -752,7 +753,6 @@ extension MapstedMap.MNMapViewController {
   @_Concurrency.MainActor @preconcurrency public func moveToLocationForNav(mercator: MapstedCore.MNMercator, duration: Swift.Float)
   @_Concurrency.MainActor @preconcurrency public func zoomOutNav()
   @_Concurrency.MainActor @preconcurrency public func tiltMap(angle: Swift.Float, duration: Swift.Float)
-  @objc deinit
 }
 public enum ErrBoundaryStyle : Swift.Int {
   case STATIC_ERR_BOUNDARY
@@ -847,6 +847,7 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public func isCalibrationMode() -> Swift.Bool
   public func drawProperty(isSelected: Swift.Bool, propertyData: MapstedCore.MNPropertyData, completion: (() -> ())? = nil)
   public func downloadAndDrawPropertyIfNeeded(propertyId: Swift.Int, statusCallback: @escaping ((_ propertyId: Swift.Int, _ isDownloaded: Swift.Bool, _ isPlotted: Swift.Bool) -> ()), downloadProgress: @escaping ((_ propertyId: Swift.Int, _ percentage: Swift.Float) -> ()), onSuccessBuilding: @escaping ((_ propertyId: Swift.Int, _ buildingId: Swift.Int) -> ()), onFailure: @escaping ((_ propertyId: Swift.Int) -> ()))
+  public func clearMapSession()
   public func isBuildingVisible(buildingId: Swift.Int) -> Swift.Bool
   public func fetchMapOverlayData(propertyId: Swift.Int, buildingId: Swift.Int?, floorId: Swift.Int?) -> [MapstedMap.MapOverlayItem]
   public func getMapOverlayData() -> [MapstedMap.MapOverlayItem]
