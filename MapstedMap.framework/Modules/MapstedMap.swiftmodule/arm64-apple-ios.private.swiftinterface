@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MapstedMap
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MapstedMap
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreGraphics
 import CoreLocation
 import CoreMotion
@@ -38,7 +38,9 @@ public protocol CameraAutoFollowChangeObserver : AnyObject {
 }
 public enum PackageStatus : ObjectiveC.NSInteger {
   case eUnknown, eInProgress, eFailed, eDownloaded
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: ObjectiveC.NSInteger)
+  #endif
   public typealias RawValue = ObjectiveC.NSInteger
   public var rawValue: ObjectiveC.NSInteger {
     get
@@ -54,12 +56,22 @@ public protocol PackageDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MapPackageDownloader : ObjectiveC.NSObject {
   public static func sharedInstance() -> MapstedMap.MapPackageDownloader
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getPackage(propertyId: Swift.Int, type: MapstedCore.MNPackageType) -> MapstedCore.DataPackage?
+  #endif
   public func deletePackages(propertyId: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func updatePackage(propertyId: Swift.Int, packageType: MapstedCore.MNPackageType, filerId: Swift.String, delegate: (any MapstedMap.PackageDelegate)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCartoCssFilePath(filerId: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCartoCssFilePath(propertyId: Swift.Int) -> Swift.String?
+  #endif
   public func getMapTilesFilePath() -> Swift.String
 }
 extension MapstedCore.MNPosition {
@@ -133,27 +145,37 @@ public struct CompassDimension {
   public var autoHandleCompassRotation: Swift.Bool
   public var autoHandleCompassClick: Swift.Bool
   public var compassBtnClicked: ((UIKit.UIButton) -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public var customLogo: UIKit.UIImage? {
     get
     set
   }
+  #endif
   public var enableMapOverlaysInSearch: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public var customLogoDimensions: MapstedMap.CustomLogoDimension? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var compassIcon: UIKit.UIImage? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var compassIconDimension: MapstedMap.CompassDimension? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var copyrightLabelBottomMargin: CoreFoundation.CGFloat? {
     get
     set
   }
+  #endif
   public var restrictPanningToProperty: Swift.Bool {
     get
     set
@@ -205,8 +227,12 @@ public struct CompassDimension {
 @_hasMissingDesignatedInitializers public class FileManagerUtility {
   public func removeFile(at filePath: Swift.String) -> Swift.Bool
   public func fileExist(at filePath: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchDataFromFile(at filePath: Swift.String) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFilePathFor(filerId: Swift.String, at folder: Swift.String) -> Swift.String?
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MapOverlaySettingsProcessor {
@@ -226,15 +252,21 @@ extension MapstedMap.MapOverlayItem : MapstedCore.CMSSearchable {
   public var toolTipName: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var image: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var imageBaseUrlString: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var imageIdString: Swift.String? {
     get
   }
+  #endif
   public func keywords() -> [Swift.String]
   public var entities: [MapstedCore.MNSearchEntity] {
     get
@@ -275,12 +307,16 @@ extension MapstedMap.MapOverlayItem : MapstedCore.CMSSearchable {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var centrePos: MapSDK.NTMapPos? {
     get
   }
+  #endif
 }
 extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(imagecolor: UIKit.UIColor, size: CoreFoundation.CGSize = CGSize(width: 1, height: 1))
+  #endif
 }
 public protocol SimplifyValue {
   var xValue: Swift.Double { get }
@@ -294,7 +330,7 @@ extension CoreFoundation.CGPoint : MapstedMap.SimplifyValue {
     get
   }
 }
-extension CoreLocation.CLLocationCoordinate2D : MapstedMap.SimplifyValue {
+extension _LocationEssentials.CLLocationCoordinate2D : MapstedMap.SimplifyValue {
   public var xValue: Swift.Double {
     get
   }
@@ -303,34 +339,52 @@ extension CoreLocation.CLLocationCoordinate2D : MapstedMap.SimplifyValue {
   }
 }
 @_hasMissingDesignatedInitializers open class Simplify {
+  #if compiler(>=5.3) && $NonescapableTypes
   open class func simplify<T>(_ points: [T], tolerance: Swift.Float?, highQuality: Swift.Bool = false) -> [T] where T : MapstedMap.SimplifyValue
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class FilerRepository {
   public static let PRESET_PARENT_DIR_MAP_STYLE: Swift.String
   public static let PRESET_PARENT_DIR_MAP_TILES: Swift.String
   public static func sharedInstance() -> MapstedMap.FilerRepository
+  #if compiler(>=5.3) && $NonescapableTypes
   public func findFile(filerId: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFile(filerId: Swift.String, parentDir: Swift.String?, completion: ((_ fileData: Swift.String?, _ errorMessage: Swift.String?) -> Swift.Void)?, progressHandler: ((Swift.Int) -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFile(filerId: Swift.String, completion: ((_ fileData: Swift.String?, _ errorMessage: Swift.String?) -> Swift.Void)?)
+  #endif
   public func removeFile(filerId: Swift.String) -> Swift.Bool
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class MNSelectionManager {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var zone: MapstedCore.MNPbZone? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var entity: MapstedCore.MNMapEntity? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var searchEntity: MapstedCore.MNSearchEntity? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func selectProperty(propertyId: Swift.Int, buildingId: Swift.Int? = nil)
+  #endif
   public func deselectProperty(propertyId: Swift.Int)
   public func deselectEntity()
   public func selectEntity(entity: any MapstedCore.ISearchable) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func selectEntity(entity: MapstedCore.MNMapEntity?, post: Swift.Bool = false) -> Swift.Bool
+  #endif
   @objc deinit
 }
 public class MNEntityVectorElements {
@@ -386,7 +440,9 @@ public enum MapEvent : Swift.Int {
   case MAP_IDLE
   case MAP_STABLE
   case MAP_INTERACTION
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -404,7 +460,9 @@ public enum ClickType : Swift.Int {
   case DOUBLE
   case DUAL
   case DESELECT
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -413,11 +471,19 @@ public enum ClickType : Swift.Int {
 @_hasMissingDesignatedInitializers public class MapClickEvent : Swift.Equatable {
   public func getClickType() -> MapstedMap.ClickType
   public func getClickLocation() -> MapstedCore.MNMercatorZone
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getClickEntity() -> MapstedCore.MNMapEntity?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getClickOverlay() -> MapstedMap.MapOverlayItem?
+  #endif
   public func getCustomMetaData() -> [Swift.String : Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getMarkerType() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getMarkerName() -> Swift.String?
+  #endif
   public func getIsInaccessible() -> Swift.Bool
   public static func == (lhs: MapstedMap.MapClickEvent, rhs: MapstedMap.MapClickEvent) -> Swift.Bool
   public var description: Swift.String {
@@ -448,7 +514,9 @@ public enum ClickType : Swift.Int {
     case eRestrictToProperty
     case eUnrestricted
     case eRestrictToCustomBounds
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -457,7 +525,9 @@ public enum ClickType : Swift.Int {
   public enum BaseMapStyleName : Swift.String {
     case DarkStyle
     case LightStyle
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -468,7 +538,9 @@ public enum ClickType : Swift.Int {
     case GREY
     case LIGHT
     case DEFAULT
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -516,9 +588,11 @@ public enum ClickType : Swift.Int {
   public var isSearchable: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var location: MapstedCore.MNMercatorZone? {
     get
   }
+  #endif
   public var isProperty: Swift.Bool {
     get
   }
@@ -529,7 +603,9 @@ public enum ClickType : Swift.Int {
   public class Builder {
     public init()
     public func build() -> MapstedMap.CustomIcon
+    #if compiler(>=5.3) && $NonescapableTypes
     public func setIcon(icon: UIKit.UIImage?) -> MapstedMap.CustomIcon.Builder
+    #endif
     public func setFallbackIcon(fallbackIcon: UIKit.UIImage) -> MapstedMap.CustomIcon.Builder
     public func setPreferredSize(_ size: Swift.Float) -> MapstedMap.CustomIcon.Builder
     public func setAnchorPointX(anchorPointX: Swift.Float) -> MapstedMap.CustomIcon.Builder
@@ -538,8 +614,12 @@ public enum ClickType : Swift.Int {
     public func setFlipRotationToFaceCamera(flipRotationToFaceCamera: Swift.Bool) -> MapstedMap.CustomIcon.Builder
     public func setOrientation(orientation: MapstedMap.Orientation) -> MapstedMap.CustomIcon.Builder
     public func setScaling(scaling: MapstedMap.Scaling) -> MapstedMap.CustomIcon.Builder
+    #if compiler(>=5.3) && $NonescapableTypes
     public func setMercatorZone(mercatorZone: MapstedCore.MNMercatorZone?) -> MapstedMap.CustomIcon.Builder
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public func setEntity(entity: MapstedCore.MNMapEntity?) -> MapstedMap.CustomIcon.Builder
+    #endif
     @objc deinit
   }
   @objc deinit
@@ -607,11 +687,21 @@ public class Coordinate : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class MapOverlayItem : ObjectiveC.NSObject, Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(_id: Swift.String? = nil, syncId: Swift.String? = nil, cmsMapOverlayId: Swift.String? = nil, _propertyId: Swift.Int? = nil, _buildingId: Swift.Int? = nil, floorId: Swift.Int? = nil, color: Swift.String? = nil, lineColor: Swift.String? = nil, textColor: Swift.String? = nil, defaultBorderFillOpacity: Swift.Float? = nil, defaultFillOpacity: Swift.Float? = nil, defaultTextOpacity: Swift.Float? = nil, dynamicOverlaySettings: MapstedMap.DynamicOverlaySettings? = nil, name: [Swift.String : Swift.String]? = nil, shape: MapstedMap.Shape? = nil, toolTipText: [Swift.String : Swift.String]? = nil, index: Swift.Int? = nil, coreDataLocations: [MapstedCore.MNMercatorZone]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getOverlayId() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getOverlayPropertyId() -> Swift.Int?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getOverlayBuildingId() -> Swift.Int?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getOverlayFloorId() -> Swift.Int?
+  #endif
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -654,7 +744,9 @@ public class Coordinate : Swift.Codable {
     case entityDeselected
     case alertBegan
     case alertEnded
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -668,10 +760,18 @@ public class Coordinate : Swift.Codable {
 @_hasMissingDesignatedInitializers public class MapstedMapConverter {
   public static func convertToNTMapPos(from mercator: MapstedCore.MNMercator) -> MapSDK.NTMapPos
   public static func convertToNTMapRange(from mapRange: MapstedMap.MapstedMapRange) -> MapSDK.NTMapRange
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convertToNTMapBounds(mercators: [MapstedCore.MNMercator]?, deltaSet: MapstedMap.MapstedMapDelta) -> MapSDK.NTMapBounds?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convertToNTMapBounds(mercators: [MapstedCore.MNMercator], deltaRatioX: Swift.Double, deltaRatioY: Swift.Double, minDeltaX: Swift.Double, minDeltaY: Swift.Double) -> MapSDK.NTMapBounds?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getMapBounds(mercators: [MapstedCore.MNMercator], deltaSet: MapstedMap.MapstedMapDelta) -> (MapstedCore.MNMercator?, MapstedCore.MNMercator?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getMapBounds(mercators: [MapstedCore.MNMercator], deltaRatioX: Swift.Double, deltaRatioY: Swift.Double, minDeltaX: Swift.Double, minDeltaY: Swift.Double) -> (MapstedCore.MNMercator?, MapstedCore.MNMercator?)
+  #endif
   @objc deinit
 }
 public class MapstedMapBounds {
@@ -697,17 +797,25 @@ public class MapstedMapBounds {
 @objc @_Concurrency.MainActor @preconcurrency open class MNMapViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var curOverlaysVisibility: Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func loadView()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityScroll(_ direction: UIKit.UIAccessibilityScrollDirection) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var accessibilityValue: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @objc @_Concurrency.MainActor @preconcurrency public func onMapMoved()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didMove(toParent parent: UIKit.UIViewController?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
@@ -715,9 +823,15 @@ public class MapstedMapBounds {
   @_Concurrency.MainActor @preconcurrency public var mapView: MapstedMap.MNMapView {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setCopyRightLabelBottomMargin(bottom: CoreFoundation.CGFloat?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setCompassIcon(logo: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setCompassPosition(dimension: MapstedMap.CompassDimension?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func reorientCompass()
   @_Concurrency.MainActor @preconcurrency public func moveMapSymbolsToDefaultPosition()
   @_Concurrency.MainActor @preconcurrency public func moveMapSymbolsDown()
@@ -731,13 +845,19 @@ extension MapstedMap.MNMapViewController {
   @_Concurrency.MainActor @preconcurrency public func removeMapClickListenerDelegate(delegate: any MapstedMap.MapClickListener)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class MNMapView : MapSDK.NTMapView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(frame: CoreFoundation.CGRect)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init(coder aDecoder: Foundation.NSCoder!)
+  #endif
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var accessibilityValue: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityIncrement()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityDecrement()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityActivate() -> Swift.Bool
@@ -747,7 +867,9 @@ extension MapstedMap.MNMapViewController {
   @_Concurrency.MainActor @preconcurrency public func setPanBounds(mapBounds: [MapstedCore.MNMercator], deltaRatioX: Swift.Double, deltaRatioY: Swift.Double, minDeltaX: Swift.Double, minDeltaY: Swift.Double)
   @_Concurrency.MainActor @preconcurrency public func moveToLocation(latitude: Swift.Double, longitude: Swift.Double)
   @_Concurrency.MainActor @preconcurrency public func moveToLocation(mercator: MapstedCore.MNMercator)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func moveToLocation(pos: MapSDK.NTMapPos?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func moveToLocation(mercator: MapstedCore.MNMercator, zoom: Swift.Float, yOffset: Swift.Double)
   @_Concurrency.MainActor @preconcurrency public func moveToLocation(mercator: MapstedCore.MNMercator, zoom: Swift.Float, duration: Swift.Float)
   @_Concurrency.MainActor @preconcurrency public func moveToLocationForNav(mercator: MapstedCore.MNMercator, duration: Swift.Float)
@@ -757,7 +879,9 @@ extension MapstedMap.MNMapViewController {
 public enum ErrBoundaryStyle : Swift.Int {
   case STATIC_ERR_BOUNDARY
   case DYNAMIC_ERR_BOUNDARY
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -767,7 +891,9 @@ public enum UserPositionColourScheme : Swift.Int {
   case BLUE_DOT
   case GREY_DOT
   case RED_DOT
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -778,7 +904,9 @@ public enum UserPositionScenario : Swift.Int {
   case INDOORS_LEVEL_HIDDEN
   case OUTDOORS_ON_PROPERTY
   case OUTDOORS_OFF_PREMISE
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -808,7 +936,9 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
     case eDual
     case eLong
     case eDeselect
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -819,7 +949,9 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
     case SelectedLocation
     case SomeEntity
     case Unspecified
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -827,10 +959,12 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   }
   public static let shared: MapstedMap.MapstedMapApi
   public var startingPointForRouting: MapstedMap.MapstedMapApi.StartingPoint
+  #if compiler(>=5.3) && $NonescapableTypes
   public var startSearchable: (any MapstedCore.Searchable)? {
     get
     set
   }
+  #endif
   public var askedToShowUserPositionMarker: Swift.Bool {
     get
     set
@@ -838,35 +972,59 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public var selectionManager: MapstedMap.MNSelectionManager {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setUp(prefetchProperties: Swift.Bool, callback: (any MapstedCore.CoreInitCallback)? = nil)
+  #endif
   public func unloadMapResources()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCustomLogo(logo: UIKit.UIImage, dimension: MapstedMap.CustomLogoDimension? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCompassIcon(logo: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCompassPosition(dimension: MapstedMap.CompassDimension?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCopyRightLabelBottomMargin(bottom: CoreFoundation.CGFloat?)
+  #endif
   public func isCalibrationMode() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func drawProperty(isSelected: Swift.Bool, propertyData: MapstedCore.MNPropertyData, completion: (() -> ())? = nil)
-  public func downloadAndDrawPropertyIfNeeded(propertyId: Swift.Int, statusCallback: @escaping ((_ propertyId: Swift.Int, _ isDownloaded: Swift.Bool, _ isPlotted: Swift.Bool) -> ()), downloadProgress: @escaping ((_ propertyId: Swift.Int, _ percentage: Swift.Float) -> ()), onSuccessBuilding: @escaping ((_ propertyId: Swift.Int, _ buildingId: Swift.Int) -> ()), onFailure: @escaping ((_ propertyId: Swift.Int) -> ()))
+  #endif
+  public func downloadAndDrawPropertyIfNeeded(propertyId: Swift.Int, statusCallback: @escaping (_ propertyId: Swift.Int, _ isDownloaded: Swift.Bool, _ isPlotted: Swift.Bool) -> (), downloadProgress: @escaping (_ propertyId: Swift.Int, _ percentage: Swift.Float) -> (), onSuccessBuilding: @escaping (_ propertyId: Swift.Int, _ buildingId: Swift.Int) -> (), onFailure: @escaping (_ propertyId: Swift.Int) -> ())
   public func clearMapSession()
   public func isBuildingVisible(buildingId: Swift.Int) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchMapOverlayData(propertyId: Swift.Int, buildingId: Swift.Int?, floorId: Swift.Int?) -> [MapstedMap.MapOverlayItem]
+  #endif
   public func getMapOverlayData() -> [MapstedMap.MapOverlayItem]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getMapOverlayItem(byOverlayId: Swift.String) -> MapstedMap.MapOverlayItem?
+  #endif
   public func updateIcons(propertyIds: [Swift.Int], buildingIds: [Swift.Int], mapZoom: Swift.Float, mapRotation: Swift.Float)
   public func removeProperty(propertyId: Swift.Int)
   public func downloadPackage(propertyId: Swift.Int)
   public func downloadBasemap(delegate: any MapstedMap.PackageDelegate)
   public func selectEntity(entity: any MapstedCore.ISearchable)
   public func deselectEntity()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func selectSearchEntity(entity: MapstedCore.MNMapEntity?, showPopup: Swift.Bool)
+  #endif
   public func selectMapOverlayItemOnMap(mapOverlay: MapstedMap.MapOverlayItem)
   public func selectMapOverlayItem(item: MapstedMap.MapOverlayItem)
   public func switchFloor(buildingId: Swift.Int, floorId: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func currentFloor(buildingId: Swift.Int) -> Swift.Int?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func mapFocus() -> MapstedCore.MNMercator?
+  #endif
   public func setAutoRotateMap(val: Swift.Bool)
   public func shouldAutoRotateMap() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCameraAutoFollowChangeDelegate(delegate: (any MapstedMap.CameraAutoFollowChangeObserver)?)
+  #endif
   public func setCameraAutofollow(enabled: Swift.Bool)
   public func isCameraAutoFollowEnabled() -> Swift.Bool
   public func handleZoom(propertyId: Swift.Int, closestToCentreBuildingId: [Swift.Int], zoom: Swift.Float)
@@ -879,7 +1037,9 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public func setDestinationPinImage(destinationPin: UIKit.UIImage)
   public func setTagImage(tagPin: UIKit.UIImage)
   public func updateUserMarker(position: MapstedCore.MNPosition)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func plotLocationMarker(completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
   public func plotDroppedPinMarker(position: MapstedCore.MNPosition)
   public func showLocationMarker()
   public func hideLocationMarker()
@@ -898,11 +1058,15 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public func targetPin()
   public func allTargetsAdded() -> Swift.Bool
   public func switchToFloorForCalibration(floorId: Swift.Int)
-  public func setCalibrationFloorChangeCallback(callback: @escaping ((Swift.Int, Swift.Int) -> Swift.Void))
+  public func setCalibrationFloorChangeCallback(callback: @escaping (Swift.Int, Swift.Int) -> Swift.Void)
   public func clearRoute()
   public func displayRouteForFloor(floorId: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routeStartAndDestinationNames() -> (Swift.String?, Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routeStartAndDestinationNamesForRoute(routeIndex: Swift.Int) -> (Swift.String?, Swift.String?)
+  #endif
   public func floorId(segmentIndex: Swift.Int) -> Swift.Int
   public func buildingId(segmentIndex: Swift.Int) -> Swift.Int
   public func routingInstructions(routeIndex: Swift.Int) -> [[MapstedCore.MNRoutePointInstruction]]
@@ -913,30 +1077,64 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public func endRouteSimulation()
   public func segmentCountForCurrentRoute() -> Swift.Int
   public func alertsForCurrentRoute() -> [Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routingErrorIfFailed() -> Swift.String?
+  #endif
   public func isRoutingSuccessful() -> Swift.Bool
   public func curRoutingIdx() -> (seg: Swift.Int, floor: Swift.Int)
   public func switchRoute(routeIndex: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSelectedRoute() -> MapstedCore.MNRoute?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSelectedRoutePath() -> MapstedCore.MNRoutePath?
+  #endif
   public func switchSegmentForCurrentRoute(routeSegmentIndex: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func startNavigation(fromPosition: MapstedCore.MNMercator?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func stopNavigation(finalPosition: MapstedCore.MNMercator?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routeDistanceTimeEstimate() -> MapstedCore.MNDistanceTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routeDetourDistanceTime() -> MapstedCore.MNDistanceTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routeDistanceTimeEstimate(routeIndex: Swift.Int) -> MapstedCore.MNDistanceTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routeSegmentDistanceTimeEstimate(segIndex: Swift.Int) -> MapstedCore.MNDistanceTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func totalRouteDistanceTimeEstimate() -> MapstedCore.MNDistanceTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func totalRouteDetourDistanceTime() -> MapstedCore.MNDistanceTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func routeDistanceTimeToDestination() -> MapstedCore.MNDistanceTime?
+  #endif
   public func floorIdsForRoute(routeIndex: Swift.Int) -> [Swift.Int]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func curNavigationInstruction() -> MapstedCore.MNRoutePointInstruction?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func nextNavigationInstruction() -> MapstedCore.MNRoutePointInstruction?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func nxtNavigationInstruction(currentInstruction: MapstedCore.MNRoutePointInstruction) -> MapstedCore.MNRoutePointInstruction?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func transitionTypeAtEnd(routeIndex: Swift.Int, floorIndex: Swift.Int) -> MapstedCore.MNInstructionType?
+  #endif
   public func setMapPanType(type: MapstedMap.MapstedMapMeta.MapPanType)
   public func tiltMap(angle: Swift.Float, duration: Swift.Float)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func mapView() -> MapstedMap.MNMapView?
+  #endif
   public func drawCurrent(switchFloor: Swift.Bool)
   public func drawCurrent(position: MapstedCore.MNPosition, switchFloor: Swift.Bool)
   public func updateCurrentWithVisiblity(position: MapstedCore.MNPosition)
@@ -947,7 +1145,7 @@ extension MapstedMap.MapRoutingManager : MapstedCore.RoutingRequestCallback {
   public func selectedLocationMatchesCurrentPosition() -> Swift.Bool
   public func centerOnProperty(propertyId: Swift.Int) -> Swift.Bool
   public func centerOnBuilding(buildingId: Swift.Int) -> Swift.Bool
-  public func refreshAndPlotMapOverlays(propertyId: Swift.Int, completion: @escaping ((Swift.Bool) -> ()))
+  public func refreshAndPlotMapOverlays(propertyId: Swift.Int, completion: @escaping (Swift.Bool) -> ())
   public func addMapEventListenerDelegate(delegate: any MapstedMap.MapEventListener)
   public func removeMapEventListenerDelegate(delegate: any MapstedMap.MapEventListener)
   public func addMapClickListenerDelegate(delegate: any MapstedMap.MapClickListener)
@@ -965,8 +1163,12 @@ extension MapstedMap.MapstedMapApi {
   public func setMapStyleFileName(assetFileName: Swift.String)
 }
 extension MapstedMap.MapstedMapApi {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setMapBounds(to mapstedMapBounds: MapstedMap.MapstedMapBounds?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setMapBounds(with mercators: [MapstedCore.MNMercator]?, deltaSet: MapstedMap.MapstedMapDelta)
+  #endif
   public func getMapBounds() -> MapstedMap.MapstedMapBounds
 }
 extension MapstedMap.MapstedMapApi {
@@ -981,8 +1183,12 @@ extension MapstedMap.MapstedMapApi : MapstedMap.PackageDelegate {
   public func onFailure()
 }
 extension MapstedMap.MapstedMapApi : MapstedCore.MNDeepLinkDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func processDeepLink(uri: Foundation.URL, completion: ((Swift.Bool) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func processDeepLink(path: Swift.String, params: [Foundation.URLQueryItem]?, completion: ((Swift.Bool) -> Swift.Void)?)
+  #endif
 }
 extension MapstedMap.MapstedMapApi {
   public func addMapSelectionChangeObserver(delegate: any MapstedMap.MapSelectionChangeObserver)
