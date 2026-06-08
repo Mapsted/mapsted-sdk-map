@@ -744,6 +744,7 @@ public class Coordinate : Swift.Codable {
     case entityDeselected
     case alertBegan
     case alertEnded
+    case switchRoute
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif
@@ -1170,6 +1171,7 @@ extension MapstedMap.MapstedMapApi {
   public func setMapBounds(with mercators: [MapstedCore.MNMercator]?, deltaSet: MapstedMap.MapstedMapDelta)
   #endif
   public func getMapBounds() -> MapstedMap.MapstedMapBounds
+  public func setFocusPos(to mercator: MapstedCore.MNMercator, durationSeconds: Swift.Float)
 }
 extension MapstedMap.MapstedMapApi {
   public func highlightEntity(entity: MapstedCore.MNMapEntity, hexColor: Swift.String, imageUrl: Swift.String)
